@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BusinessAddress_ErrorMessage</name>
+   <tag></tag>
+   <elementGuidId>9519fe3c-898f-49cc-b878-ed1bd20a6a13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//div[@id='BuyerInfo']/div[3]/div[1]/div[2]/span[1]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

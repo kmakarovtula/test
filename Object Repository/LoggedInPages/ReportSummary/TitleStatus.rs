@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TitleStatus</name>
+   <tag></tag>
+   <elementGuidId>32bc5f3d-3586-454a-bfd2-3dee5943b0f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//div[@class='SummaryTileContainer']/div[@data-site-tab='{&quot;tabId&quot;:&quot;titleInformation&quot;,&quot;selectedCss&quot;:&quot;&quot;,&quot;deselectedCss&quot;:&quot;&quot;}']/div[2]</value>
+   </webElementProperties>
+</WebElementEntity>

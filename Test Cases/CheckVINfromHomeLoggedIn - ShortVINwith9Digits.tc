@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckVINfromHomeLoggedIn - ShortVINwith9Digits</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e4bdec3-4fe8-44ab-afce-8398c28c5f32</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.VINShort</defaultValue>
+      <description></description>
+      <id>3172bb8f-2730-4ef1-a295-f6797e7f6e55</id>
+      <masked>false</masked>
+      <name>VIN</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ConsumerEmail1</defaultValue>
+      <description></description>
+      <id>4b19423d-cbc5-4fa0-97db-73286b48bdcb</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Pass1</defaultValue>
+      <description></description>
+      <id>ce032d59-e93c-430c-a1f9-74f69c5c2bc0</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+</TestCaseEntity>

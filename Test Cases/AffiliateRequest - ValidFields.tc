@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AffiliateRequest - ValidFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8537bf35-06b1-4c44-b423-fd8d8e5d2995</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.StagingReact</defaultValue>
+      <description></description>
+      <id>ad4cac80-3431-41ff-a607-3478964f4974</id>
+      <masked>false</masked>
+      <name>StartURL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>817cf0f0-26dd-4f15-8816-2e7edc2ff4a8</id>
+      <masked>false</masked>
+      <name>rnd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e50f97a-e24e-4579-bb96-5f70fbbdc844</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+</TestCaseEntity>

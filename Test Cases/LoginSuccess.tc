@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginSuccess</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a5a95bf6-95d2-4ead-b4f2-264a0c20a435</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.ConsumerEmail1</defaultValue>
+      <description></description>
+      <id>3cd6dd04-e6cd-419d-b812-5e386bbddfd4</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Pass1</defaultValue>
+      <description></description>
+      <id>3cc88f30-ec50-4bce-a3e2-fea29f8d1b65</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.StagingReact</defaultValue>
+      <description></description>
+      <id>11ac2a74-cbda-4c65-9098-986532790313</id>
+      <masked>false</masked>
+      <name>StartURL</name>
+   </variable>
+</TestCaseEntity>

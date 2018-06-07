@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUpConsumer - ValidFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05b91c9f-687d-47ca-9dc7-f69f5c8bea5f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a3d98ce8-10ee-4e1d-9744-bcb7f04fa7b1</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a759bb66-289c-4665-adc0-b8afc4589c00</id>
+      <masked>false</masked>
+      <name>rnd</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ValidCCNumber</defaultValue>
+      <description></description>
+      <id>3d502b2c-a897-4104-8a5b-a02433637e5c</id>
+      <masked>false</masked>
+      <name>CCNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Pass1</defaultValue>
+      <description></description>
+      <id>88d54719-7c33-4134-a76b-0b46d5136936</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Buyer1VtrPrice</defaultValue>
+      <description></description>
+      <id>c48577bf-bb36-4f16-b5bd-ab8883f6bc10</id>
+      <masked>false</masked>
+      <name>Vtr1</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Buyer2VtrPrice</defaultValue>
+      <description></description>
+      <id>56e740e2-b0a4-4876-b243-dd9825749724</id>
+      <masked>false</masked>
+      <name>Vtr2</name>
+   </variable>
+</TestCaseEntity>

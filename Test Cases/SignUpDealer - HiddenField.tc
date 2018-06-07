@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUpDealer - HiddenField</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2ba6e53f-6897-4576-a372-6c62f27df137</testCaseGuid>
+   <variable>
+      <defaultValue>'111111'</defaultValue>
+      <description></description>
+      <id>301fbea0-939d-4660-b29f-320e4250c884</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+</TestCaseEntity>

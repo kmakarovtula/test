@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Staging Smoke Test Suite" time="458" tests="0" failures="9" errors="0">
+   <testsuite name="Staging Smoke Test Suite" tests="0" failures="9" errors="0" time="458" timestamp="2018-05-24 12:25:11" hostname="KSavinkin - LPksavinkin.TC.local" id="Test Suites/Staging Smoke Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509"/>
+         <property name="logFiles" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\execution0.log"/>
+         <property name="attachments" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527153923804.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527153935562.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527153947684.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154018306.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154018669.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154088146.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154088506.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154158362.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154158719.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154228068.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154228435.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154297787.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154298154.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154367854.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154368215.png"/>
+         <property name="hostName" value="KSavinkin - LPksavinkin.TC.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="192.168.102.8"/>
+         <property name="sessionId" value="df5eedd48fe63fe655b3252187c8426a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/SignUpConsumer - ValidFields" classname="Test Cases/SignUpConsumer - ValidFields" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)"/>
+         <system-out><![CDATA[2018-05-24 12:25:11 - [TEST_CASE][FAILED] - Test Cases/SignUpConsumer - ValidFields: Test Cases/SignUpConsumer - ValidFields FAILED because (of) Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-05-24 12:25:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 12:25:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 12:25:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 12:25:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 12:25:17 - [TEST_STEP][PASSED] - Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "create-account"]): Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-24 12:25:17 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-24 12:25:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/create-account' successfully
+
+2018-05-24 12:25:20 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/create-account' successfully
+
+2018-05-24 12:25:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-24 12:25:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-24 12:25:20 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Buyer Information' is present on page 
+
+2018-05-24 12:25:20 - [MESSAGE][PASSED] - Text 'Buyer Information' is present on page 
+
+2018-05-24 12:25:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Name_Label' are matched.
+
+2018-05-24 12:25:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Name_Label' are matched.
+
+2018-05-24 12:25:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_Label' are matched.
+
+2018-05-24 12:25:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_Label' are matched.
+
+2018-05-24 12:25:20 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-24 12:25:20 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-24 12:25:20 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["buyer", rnd, "@mailinator.com"]): Concatenated string array: '['buyer','20180524122520953','@mailinator.com']' into 'buyer20180524122520953@mailinator.com'
+
+2018-05-24 12:25:20 - [MESSAGE][PASSED] - Concatenated string array: '['buyer','20180524122520953','@mailinator.com']' into 'buyer20180524122520953@mailinator.com'
+
+2018-05-24 12:25:20 - [TEST_STEP][PASSED] - setText: Text 'Consumer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/FirstName_Input'
+
+2018-05-24 12:25:21 - [MESSAGE][PASSED] - Text 'Consumer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/FirstName_Input'
+
+2018-05-24 12:25:21 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/LastName_Input'
+
+2018-05-24 12:25:21 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/LastName_Input'
+
+2018-05-24 12:25:21 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_Input'
+
+2018-05-24 12:25:21 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_Input'
+
+2018-05-24 12:25:21 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/City_Input'
+
+2018-05-24 12:25:21 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/City_Input'
+
+2018-05-24 12:25:21 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CA' are selected in object 'Object Repository/LoggedOutReactPages/CreateAccount/State_Dropdown' 
+
+2018-05-24 12:25:21 - [MESSAGE][PASSED] - All options with value 'CA' are selected in object 'Object Repository/LoggedOutReactPages/CreateAccount/State_Dropdown' 
+
+2018-05-24 12:25:21 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_Input'
+
+2018-05-24 12:25:22 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_Input'
+
+2018-05-24 12:25:22 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Phone_Input'
+
+2018-05-24 12:25:23 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Phone_Input'
+
+2018-05-24 12:25:23 - [TEST_STEP][PASSED] - setText: Text 'Consumer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_Input'
+
+2018-05-24 12:25:23 - [MESSAGE][PASSED] - Text 'Consumer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_Input'
+
+2018-05-24 12:25:23 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_Input'
+
+2018-05-24 12:25:23 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_Input'
+
+2018-05-24 12:25:23 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_Input'
+
+2018-05-24 12:25:23 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_Input'
+
+2018-05-24 12:25:23 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_Input'
+
+2018-05-24 12:25:23 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_Input'
+
+2018-05-24 12:25:23 - [TEST_STEP][FAILED] - setText: Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-05-24 12:25:24 - [MESSAGE][FAILED] - Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527153923804.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-24 12:25:11 - [TEST_CASE][FAILED] - Test Cases/SignUpConsumer - ValidFields: Test Cases/SignUpConsumer - ValidFields FAILED because (of) Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUpDealer - ValidFields" classname="Test Cases/SignUpDealer - ValidFields" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)"/>
+         <system-out><![CDATA[2018-05-24 12:25:24 - [TEST_CASE][FAILED] - Test Cases/SignUpDealer - ValidFields: Test Cases/SignUpDealer - ValidFields FAILED because (of) Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-05-24 12:25:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 12:25:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-24 12:25:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 12:25:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 12:25:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 12:25:28 - [TEST_STEP][PASSED] - Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "create-account"]): Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-24 12:25:28 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-24 12:25:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/create-account' successfully
+
+2018-05-24 12:25:31 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/create-account' successfully
+
+2018-05-24 12:25:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Dealer_Button' is clicked on
+
+2018-05-24 12:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Dealer_Button' is clicked on
+
+2018-05-24 12:25:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-24 12:25:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-24 12:25:31 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Dealer Information' is present on page 
+
+2018-05-24 12:25:31 - [MESSAGE][PASSED] - Text 'Dealer Information' is present on page 
+
+2018-05-24 12:25:31 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-24 12:25:31 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-24 12:25:32 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["dealer", rnd, "@mailinator.com"]): Concatenated string array: '['dealer','20180524122531998','@mailinator.com']' into 'dealer20180524122531998@mailinator.com'
+
+2018-05-24 12:25:32 - [MESSAGE][PASSED] - Concatenated string array: '['dealer','20180524122531998','@mailinator.com']' into 'dealer20180524122531998@mailinator.com'
+
+2018-05-24 12:25:32 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessName_Input'
+
+2018-05-24 12:25:32 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessName_Input'
+
+2018-05-24 12:25:32 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/AccessID_Input'
+
+2018-05-24 12:25:32 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/AccessID_Input'
+
+2018-05-24 12:25:32 - [TEST_STEP][PASSED] - setText: Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/FirstName_Input'
+
+2018-05-24 12:25:32 - [MESSAGE][PASSED] - Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/FirstName_Input'
+
+2018-05-24 12:25:32 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/LastName_Input'
+
+2018-05-24 12:25:33 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/LastName_Input'
+
+2018-05-24 12:25:33 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_Input'
+
+2018-05-24 12:25:33 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_Input'
+
+2018-05-24 12:25:33 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/City_Input'
+
+2018-05-24 12:25:33 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/City_Input'
+
+2018-05-24 12:25:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/CreateAccount/State_Dropdown' 
+
+2018-05-24 12:25:33 - [MESSAGE][PASSED] - All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/CreateAccount/State_Dropdown' 
+
+2018-05-24 12:25:33 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_Input'
+
+2018-05-24 12:25:33 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_Input'
+
+2018-05-24 12:25:33 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Phone_Input'
+
+2018-05-24 12:25:34 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Phone_Input'
+
+2018-05-24 12:25:34 - [TEST_STEP][PASSED] - setText: Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_Input'
+
+2018-05-24 12:25:34 - [MESSAGE][PASSED] - Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_Input'
+
+2018-05-24 12:25:34 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_Input'
+
+2018-05-24 12:25:35 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_Input'
+
+2018-05-24 12:25:35 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_Input'
+
+2018-05-24 12:25:35 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_Input'
+
+2018-05-24 12:25:35 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_Input'
+
+2018-05-24 12:25:35 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_Input'
+
+2018-05-24 12:25:35 - [TEST_STEP][FAILED] - setText: Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-05-24 12:25:35 - [MESSAGE][FAILED] - Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527153935562.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-24 12:25:24 - [TEST_CASE][FAILED] - Test Cases/SignUpDealer - ValidFields: Test Cases/SignUpDealer - ValidFields FAILED because (of) Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUpCADealer - ValidFields" classname="Test Cases/SignUpCADealer - ValidFields" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)"/>
+         <system-out><![CDATA[2018-05-24 12:25:35 - [TEST_CASE][FAILED] - Test Cases/SignUpCADealer - ValidFields: Test Cases/SignUpCADealer - ValidFields FAILED because (of) Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-05-24 12:25:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 12:25:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-24 12:25:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 12:25:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 12:25:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 12:25:41 - [TEST_STEP][PASSED] - Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "create-account"]): Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-24 12:25:41 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-24 12:25:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/create-account' successfully
+
+2018-05-24 12:25:43 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/create-account' successfully
+
+2018-05-24 12:25:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Dealer_Button' is clicked on
+
+2018-05-24 12:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Dealer_Button' is clicked on
+
+2018-05-24 12:25:43 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-24 12:25:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-24 12:25:43 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Dealer Information' is present on page 
+
+2018-05-24 12:25:44 - [MESSAGE][PASSED] - Text 'Dealer Information' is present on page 
+
+2018-05-24 12:25:44 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-24 12:25:44 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-24 12:25:44 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["cadealer", rnd, "@mailinator.com"]): Concatenated string array: '['cadealer','20180524122544280','@mailinator.com']' into 'cadealer20180524122544280@mailinator.com'
+
+2018-05-24 12:25:44 - [MESSAGE][PASSED] - Concatenated string array: '['cadealer','20180524122544280','@mailinator.com']' into 'cadealer20180524122544280@mailinator.com'
+
+2018-05-24 12:25:44 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessName_Input'
+
+2018-05-24 12:25:44 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessName_Input'
+
+2018-05-24 12:25:44 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/AccessID_Input'
+
+2018-05-24 12:25:44 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/AccessID_Input'
+
+2018-05-24 12:25:44 - [TEST_STEP][PASSED] - setText: Text 'CaDealer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/FirstName_Input'
+
+2018-05-24 12:25:44 - [MESSAGE][PASSED] - Text 'CaDealer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/FirstName_Input'
+
+2018-05-24 12:25:44 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/LastName_Input'
+
+2018-05-24 12:25:45 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/LastName_Input'
+
+2018-05-24 12:25:45 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_Input'
+
+2018-05-24 12:25:45 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_Input'
+
+2018-05-24 12:25:45 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/City_Input'
+
+2018-05-24 12:25:45 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/City_Input'
+
+2018-05-24 12:25:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CA' are selected in object 'Object Repository/LoggedOutReactPages/CreateAccount/State_Dropdown' 
+
+2018-05-24 12:25:45 - [MESSAGE][PASSED] - All options with value 'CA' are selected in object 'Object Repository/LoggedOutReactPages/CreateAccount/State_Dropdown' 
+
+2018-05-24 12:25:45 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_Input'
+
+2018-05-24 12:25:45 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_Input'
+
+2018-05-24 12:25:46 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Phone_Input'
+
+2018-05-24 12:25:46 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Phone_Input'
+
+2018-05-24 12:25:46 - [TEST_STEP][PASSED] - setText: Text 'CaDealer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_Input'
+
+2018-05-24 12:25:46 - [MESSAGE][PASSED] - Text 'CaDealer' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_Input'
+
+2018-05-24 12:25:46 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_Input'
+
+2018-05-24 12:25:47 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_Input'
+
+2018-05-24 12:25:47 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_Input'
+
+2018-05-24 12:25:47 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_Input'
+
+2018-05-24 12:25:47 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_Input'
+
+2018-05-24 12:25:47 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_Input'
+
+2018-05-24 12:25:47 - [TEST_STEP][FAILED] - setText: Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)
+
+2018-05-24 12:25:48 - [MESSAGE][FAILED] - Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527153947684.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-24 12:25:35 - [TEST_CASE][FAILED] - Test Cases/SignUpCADealer - ValidFields: Test Cases/SignUpCADealer - ValidFields FAILED because (of) Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Affiliate - BuyVTRConsumer" classname="Test Cases/Affiliate - BuyVTRConsumer" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)"/>
+         <system-out><![CDATA[2018-05-24 12:25:48 - [TEST_CASE][FAILED] - Test Cases/Affiliate - BuyVTRConsumer: Test Cases/Affiliate - BuyVTRConsumer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:25:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 12:25:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-24 12:25:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 12:25:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 12:25:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 12:25:52 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, AffiliateURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:25:52 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:25:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:25:55 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:25:55 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:25:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 12:26:26 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:26:26 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:26:58 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154018306.png]]
+
+2018-05-24 12:26:59 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154018669.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-24 12:25:48 - [TEST_CASE][FAILED] - Test Cases/Affiliate - BuyVTRConsumer: Test Cases/Affiliate - BuyVTRConsumer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Affiliate - BuyVTRDealer" classname="Test Cases/Affiliate - BuyVTRDealer" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)"/>
+         <system-out><![CDATA[2018-05-24 12:26:59 - [TEST_CASE][FAILED] - Test Cases/Affiliate - BuyVTRDealer: Test Cases/Affiliate - BuyVTRDealer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:26:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 12:26:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-24 12:27:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 12:27:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 12:27:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 12:27:03 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, AffiliateURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:27:03 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:27:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:27:05 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:27:05 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:27:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 12:27:36 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:27:36 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:28:08 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154088146.png]]
+
+2018-05-24 12:28:08 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154088506.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-24 12:26:59 - [TEST_CASE][FAILED] - Test Cases/Affiliate - BuyVTRDealer: Test Cases/Affiliate - BuyVTRDealer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Affiliate - BuyVTRCaDealer" classname="Test Cases/Affiliate - BuyVTRCaDealer" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)"/>
+         <system-out><![CDATA[2018-05-24 12:28:08 - [TEST_CASE][FAILED] - Test Cases/Affiliate - BuyVTRCaDealer: Test Cases/Affiliate - BuyVTRCaDealer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:28:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 12:28:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-24 12:28:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 12:28:12 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 12:28:13 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 12:28:13 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, AffiliateURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:28:13 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:28:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:28:15 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:28:15 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:28:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 12:28:46 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:28:46 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:29:18 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154158362.png]]
+
+2018-05-24 12:29:19 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154158719.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-24 12:28:08 - [TEST_CASE][FAILED] - Test Cases/Affiliate - BuyVTRCaDealer: Test Cases/Affiliate - BuyVTRCaDealer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Salesman - BuyVtrCaDealer" classname="Test Cases/Salesman - BuyVtrCaDealer" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)"/>
+         <system-out><![CDATA[2018-05-24 12:29:19 - [TEST_CASE][FAILED] - Test Cases/Salesman - BuyVtrCaDealer: Test Cases/Salesman - BuyVtrCaDealer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:29:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 12:29:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-24 12:29:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 12:29:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 12:29:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 12:29:23 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, SalesmanURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:29:23 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:29:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:29:25 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:29:25 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:29:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 12:29:56 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:29:56 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:30:28 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154228068.png]]
+
+2018-05-24 12:30:28 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154228435.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-24 12:29:19 - [TEST_CASE][FAILED] - Test Cases/Salesman - BuyVtrCaDealer: Test Cases/Salesman - BuyVtrCaDealer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Salesman - BuyVTRConsumer" classname="Test Cases/Salesman - BuyVTRConsumer" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)"/>
+         <system-out><![CDATA[2018-05-24 12:30:28 - [TEST_CASE][FAILED] - Test Cases/Salesman - BuyVTRConsumer: Test Cases/Salesman - BuyVTRConsumer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:30:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 12:30:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-24 12:30:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 12:30:32 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 12:30:33 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 12:30:33 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, SalesmanURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:30:33 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:30:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:30:34 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:30:34 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:30:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 12:31:06 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:31:06 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:31:38 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154297787.png]]
+
+2018-05-24 12:31:38 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154298154.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-24 12:30:28 - [TEST_CASE][FAILED] - Test Cases/Salesman - BuyVTRConsumer: Test Cases/Salesman - BuyVTRConsumer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Salesman - BuyVTRDealer" classname="Test Cases/Salesman - BuyVTRDealer" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)"/>
+         <system-out><![CDATA[2018-05-24 12:31:38 - [TEST_CASE][FAILED] - Test Cases/Salesman - BuyVTRDealer: Test Cases/Salesman - BuyVTRDealer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:31:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 12:31:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-24 12:31:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 12:31:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 12:31:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 12:31:42 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, SalesmanURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:31:42 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','null','order/']' into 'https://staging.instavin.com/nullorder/'
+
+2018-05-24 12:31:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:31:44 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/nullorder/' successfully
+
+2018-05-24 12:31:44 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:31:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 12:32:16 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' located by 'By.xpath: //h1[contains(text(),'instaVIN Report Options')]' not found
+
+2018-05-24 12:32:16 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+
+2018-05-24 12:32:48 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154367854.png]]
+
+2018-05-24 12:32:48 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180524_122509\\1527154368215.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-24 12:31:38 - [TEST_CASE][FAILED] - Test Cases/Salesman - BuyVTRDealer: Test Cases/Salesman - BuyVTRDealer FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' located by 'By.xpath: //html//div[@class='PricingOptionsContainer']/form/div[3]/div[2]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-24 12:25:11 - [TEST_SUITE][FAILED] - Staging Smoke Test Suite: Test Cases/SignUpConsumer - ValidFields FAILED because (of) Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)]]></system-out>
+      <system-err><![CDATA[2018-05-24 12:25:11 - [TEST_SUITE][FAILED] - Staging Smoke Test Suite: Test Cases/SignUpConsumer - ValidFields FAILED because (of) Unable to set text 'null' of object 'Object Repository/LoggedOutReactPages/CreateAccount/CcNumber_Input' (Root cause: java.lang.IllegalArgumentException: Text is null)]]></system-err>
+   </testsuite>
+</testsuites>

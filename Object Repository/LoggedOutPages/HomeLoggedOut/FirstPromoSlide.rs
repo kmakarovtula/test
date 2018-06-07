@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FirstPromoSlide</name>
+   <tag></tag>
+   <elementGuidId>19935078-9ba5-4e70-8946-18f3e8c49462</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@data-index='0']//div//div[@class='SubSlideContainer']//div[@class='container']//div[@class='PromotionSlide']//h1//a[@href='https://dev-front.instavin.com/order?pricingoption=ReportCredits']</value>
+   </webElementProperties>
+</WebElementEntity>

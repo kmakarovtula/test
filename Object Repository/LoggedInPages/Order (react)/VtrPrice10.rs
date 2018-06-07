@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>VtrPrice10</name>
+   <tag></tag>
+   <elementGuidId>d5e15f3f-0725-46fa-b6ad-0df035dcf335</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//div[@class='PricingOptionsContainer']/form/div[5]/div[2]</value>
+   </webElementProperties>
+</WebElementEntity>

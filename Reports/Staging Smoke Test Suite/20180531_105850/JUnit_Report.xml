@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Staging Smoke Test Suite" time="13" tests="0" failures="1" errors="0">
+   <testsuite name="Staging Smoke Test Suite" tests="0" failures="1" errors="0" time="13" timestamp="2018-05-31 10:58:52" hostname="KSavinkin - LPksavinkin.TC.local" id="Test Suites/Staging Smoke Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180531_105850"/>
+         <property name="logFiles" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180531_105850\\execution0.log"/>
+         <property name="attachments" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180531_105850\\1527753544593.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180531_105850\\1527753545029.png"/>
+         <property name="hostName" value="KSavinkin - LPksavinkin.TC.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="192.168.0.184"/>
+         <property name="sessionId" value="5b1cdbb48dbdbbd03587754a05749811"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Order - BuyVtr_CautionRecall" classname="Test Cases/Order - BuyVtr_CautionRecall" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: Actual text '$6.99' and expected text 'null' of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-31 10:58:53 - [TEST_CASE][FAILED] - Test Cases/Order - BuyVtr_CautionRecall: Test Cases/Order - BuyVtr_CautionRecall FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: Actual text '$6.99' and expected text 'null' of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are NOT matched.)
+
+2018-05-31 10:58:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-31 10:58:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-31 10:58:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-31 10:58:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-31 10:58:59 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "order/"]): Concatenated string array: '['https://staging.instavin.com/','order/']' into 'https://staging.instavin.com/order/'
+
+2018-05-31 10:58:59 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','order/']' into 'https://staging.instavin.com/order/'
+
+2018-05-31 10:58:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/order/' successfully
+
+2018-05-31 10:59:04 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/order/' successfully
+
+2018-05-31 10:59:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-31 10:59:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-31 10:59:04 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-31 10:59:04 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: Actual text '$6.99' and expected text 'null' of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are NOT matched.)
+
+2018-05-31 10:59:05 - [MESSAGE][FAILED] - Actual text '$6.99' and expected text 'null' of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are NOT matched.
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180531_105850\\1527753544593.png]]
+
+2018-05-31 10:59:05 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: Actual text '$6.99' and expected text 'null' of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are NOT matched.)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180531_105850\\1527753545029.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-31 10:58:53 - [TEST_CASE][FAILED] - Test Cases/Order - BuyVtr_CautionRecall: Test Cases/Order - BuyVtr_CautionRecall FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: Actual text '$6.99' and expected text 'null' of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are NOT matched.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-31 10:58:52 - [TEST_SUITE][FAILED] - Staging Smoke Test Suite: Test Cases/Order - BuyVtr_CautionRecall FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: Actual text '$6.99' and expected text 'null' of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are NOT matched.)]]></system-out>
+      <system-err><![CDATA[2018-05-31 10:58:52 - [TEST_SUITE][FAILED] - Staging Smoke Test Suite: Test Cases/Order - BuyVtr_CautionRecall FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' FAILED. (Root cause: Actual text '$6.99' and expected text 'null' of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are NOT matched.)]]></system-err>
+   </testsuite>
+</testsuites>

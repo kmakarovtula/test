@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckVINfromHomeLoggedIn - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82e0234f-c156-4c8a-9cbc-c82dd14aa05a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.VINSuccess</defaultValue>
+      <description></description>
+      <id>bcec3bc1-3d86-44a8-8eeb-2a64f99279f9</id>
+      <masked>false</masked>
+      <name>VIN</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ConsumerEmail1</defaultValue>
+      <description></description>
+      <id>6bc5d704-076d-48c3-b6bc-420b8d6ababb</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Pass1</defaultValue>
+      <description></description>
+      <id>e68f59f2-c353-44a8-8a1c-b773751c13e3</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+</TestCaseEntity>

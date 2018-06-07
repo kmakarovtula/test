@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SeventhPricePoint</name>
+   <tag></tag>
+   <elementGuidId>11597ca2-7464-4307-b2c2-9b12656c8c0e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='PricingPanel']/div[@class='PricingOptionsContainer']/form/div[15]</value>
+   </webElementProperties>
+</WebElementEntity>

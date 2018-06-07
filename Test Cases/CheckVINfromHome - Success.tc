@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckVINfromHome - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db99e4a0-9826-4cfb-a790-53abee1e942a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.VINSuccess</defaultValue>
+      <description></description>
+      <id>22c410be-f0bd-4c38-990d-76f47a5e1137</id>
+      <masked>false</masked>
+      <name>VIN</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckVINfromHome - EmptyVIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c734448c-589b-41d2-9ef3-562af5fc4600</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d344089-46a0-4e72-b8fb-413740430d19</id>
+      <masked>false</masked>
+      <name>VIN</name>
+   </variable>
+</TestCaseEntity>

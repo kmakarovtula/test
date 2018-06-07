@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginBaseTest</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4aa006ed-711b-4a7c-bd07-0f14341d2f4d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>830e233b-b709-4de0-bcfd-70d7d583163b</id>
+      <masked>false</masked>
+      <name>PassBase</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8e956db3-7346-456e-9bd2-3c248dfc1dc7</id>
+      <masked>false</masked>
+      <name>EmailBase</name>
+   </variable>
+</TestCaseEntity>

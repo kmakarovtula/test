@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginPage - WrongPass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b264554c-3470-4b3e-8f0b-2a286c299491</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.StagingReact</defaultValue>
+      <description></description>
+      <id>827763d6-a840-4a3d-b479-df20d7b5439d</id>
+      <masked>false</masked>
+      <name>StartURL</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ConsumerEmail1</defaultValue>
+      <description></description>
+      <id>655bfae2-2258-4ad2-95a4-20636c091d5e</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'222'</defaultValue>
+      <description></description>
+      <id>1a1d3819-10d9-469d-8446-613fffe26cd0</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+</TestCaseEntity>

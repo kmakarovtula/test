@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUpConsumerBase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a8e1033-9c78-4ddd-bbcd-8cae810eb52a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ba0a76a1-5434-4c1a-bed3-86bd6a7897ab</id>
+      <masked>false</masked>
+      <name>EmailBase</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54c98288-dfe9-400f-bb67-f99308cee359</id>
+      <masked>false</masked>
+      <name>CCNumberBase</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0427b4f7-9ac7-4623-aa02-8b8271d01ade</id>
+      <masked>false</masked>
+      <name>PassBase</name>
+   </variable>
+</TestCaseEntity>

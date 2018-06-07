@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>BillingAddress_ErrorMessage</name>
+   <tag></tag>
+   <elementGuidId>4fd2c6e6-4730-4f64-bf46-b075e4f666ea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//div[@id='BillingInfo']/div[3]/div[1]/div[2]/span[1]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

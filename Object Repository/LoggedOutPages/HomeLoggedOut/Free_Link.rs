@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Free_Link</name>
+   <tag></tag>
+   <elementGuidId>1d849a0b-57b2-4c84-967f-175b9b77c785</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@data-index='0']//div//div[@class='SubSlideContainer']//div[@class='container']//div[@class='PromotionSlide']//h1//a[@href='https://dev-front.instavin.com/order?pricingoption=ReportCredits']</value>
+   </webElementProperties>
+</WebElementEntity>

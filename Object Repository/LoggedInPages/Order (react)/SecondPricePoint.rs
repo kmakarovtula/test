@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SecondPricePoint</name>
+   <tag></tag>
+   <elementGuidId>bc2d8939-d8cc-4533-9b4c-7688535efb74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='PricingPanel']/div[@class='PricingOptionsContainer']/form/div[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='PricingPanel']/div[@class='PricingOptionsContainer']/form/div[5]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SecondAppsSlide</name>
+   <tag></tag>
+   <elementGuidId>41aa8ef8-49bf-4556-9266-4adfe77f905b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@data-index='1']//div//div[@class='SubSlideContainer']//div[@class='container']//div[@class='AppsSlide']</value>
+   </webElementProperties>
+</WebElementEntity>

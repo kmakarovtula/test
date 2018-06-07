@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SecondRowThirdSection</name>
+   <tag></tag>
+   <elementGuidId>d51687cb-077e-4f63-82c6-b999b5ac925a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//div[@class='swagger-ui']//div[3]/section[1]/div/div[3]/div/div[2]/div/span[2]/a/span</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OtherStatus</name>
+   <tag></tag>
+   <elementGuidId>23a7d5a9-39c7-4b4b-b2ce-5a25f71b80e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//div[@class='SummaryTileContainer']/div[@data-site-tab='{&quot;tabId&quot;:&quot;otherInformation&quot;,&quot;selectedCss&quot;:&quot;&quot;,&quot;deselectedCss&quot;:&quot;&quot;}']/div[2]</value>
+   </webElementProperties>
+</WebElementEntity>

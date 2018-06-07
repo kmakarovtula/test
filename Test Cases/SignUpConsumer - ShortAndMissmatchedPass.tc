@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUpConsumer - ShortAndMissmatchedPass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a1c9f9bb-f186-4276-be70-4b481ff05dc0</testCaseGuid>
+   <variable>
+      <defaultValue>'111111'</defaultValue>
+      <description></description>
+      <id>38c83424-84e0-471e-83e5-7a26a243bf88</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+</TestCaseEntity>

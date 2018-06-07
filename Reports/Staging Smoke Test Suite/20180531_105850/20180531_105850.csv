@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Staging Smoke Test Suite,Chrome 66.0.3359.181,,2018-05-31 10:58:52,2018-05-31 10:59:06,13.612s,FAILED
+,,,,,,
+Test Cases/Order - BuyVtr_CautionRecall,Chrome 66.0.3359.181,,2018-05-31 10:58:53,2018-05-31 10:59:05,12.347s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-31 10:58:54,2018-05-31 10:58:57,3.839s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-31 10:58:57,2018-05-31 10:58:59,1.217s,PASSED
+"Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, ""order/""])",Chrome 66.0.3359.181,,2018-05-31 10:58:59,2018-05-31 10:58:59,0.038s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-31 10:58:59,2018-05-31 10:59:04,5.233s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-31 10:59:04,2018-05-31 10:59:04,0.144s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-31 10:59:04,2018-05-31 10:59:05,0.932s,FAILED

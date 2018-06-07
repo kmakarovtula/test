@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>JunkSalvageStatus</name>
+   <tag></tag>
+   <elementGuidId>26371c6e-1602-4a17-91f1-ea9019053f53</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//div[@class='SummaryTileContainer']/div[@data-site-tab='{&quot;tabId&quot;:&quot;junkSalvage&quot;,&quot;selectedCss&quot;:&quot;&quot;,&quot;deselectedCss&quot;:&quot;&quot;}']/div[2]</value>
+   </webElementProperties>
+</WebElementEntity>

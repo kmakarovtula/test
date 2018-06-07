@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Staging Smoke Test Suite" time="149" tests="0" failures="5" errors="0">
+   <testsuite name="Staging Smoke Test Suite" tests="0" failures="5" errors="0" time="149" timestamp="2018-05-29 11:26:32" hostname="KSavinkin - LPksavinkin.TC.local" id="Test Suites/Staging Smoke Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629"/>
+         <property name="logFiles" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\execution0.log"/>
+         <property name="attachments" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582438365.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582438828.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582480501.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582480935.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582492500.png, C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582492912.png"/>
+         <property name="hostName" value="KSavinkin - LPksavinkin.TC.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="172.18.18.81"/>
+         <property name="sessionId" value="f3c7b4c2f86de48bd0e790048af90640"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/CheckVINfromHomeLoggedIn - NoSticker" classname="Test Cases/CheckVINfromHomeLoggedIn - NoSticker" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)"/>
+         <system-out><![CDATA[2018-05-29 11:26:33 - [TEST_CASE][FAILED] - Test Cases/CheckVINfromHomeLoggedIn - NoSticker: Test Cases/CheckVINfromHomeLoggedIn - NoSticker FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)
+
+2018-05-29 11:26:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-29 11:26:34 - [TEST_CASE][PASSED] - Test Cases/Base Tests/LoginBaseTest: Test Cases/Base Tests/LoginBaseTest
+
+2018-05-29 11:26:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-29 11:26:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-29 11:26:39 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-29 11:26:40 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-29 11:26:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:26:42 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:26:42 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Label' is hovered
+
+2018-05-29 11:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Label' is hovered
+
+2018-05-29 11:26:42 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is visible
+
+2018-05-29 11:26:42 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is visible
+
+2018-05-29 11:26:42 - [TEST_STEP][PASSED] - setText: Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Email_input'
+
+2018-05-29 11:26:43 - [MESSAGE][PASSED] - Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Email_input'
+
+2018-05-29 11:26:43 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Password_input'
+
+2018-05-29 11:26:43 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Password_input'
+
+2018-05-29 11:26:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is clicked on
+
+2018-05-29 11:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is clicked on
+
+2018-05-29 11:26:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-29 11:26:43 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-29 11:26:45 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-29 11:26:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:26:45 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:26:45 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' is present
+
+2018-05-29 11:26:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:26:45 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' is present
+
+2018-05-29 11:26:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-29 11:26:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:26:45 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-29 11:26:45 - [TEST_STEP][PASSED] - setText: Text 'JF1SF63591H766643' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input'
+
+2018-05-29 11:26:46 - [MESSAGE][PASSED] - Text 'JF1SF63591H766643' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input'
+
+2018-05-29 11:26:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/SubmitVinArrow_Button' is clicked on
+
+2018-05-29 11:26:47 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/SubmitVinArrow_Button' is clicked on
+
+2018-05-29 11:26:47 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-29 11:26:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-29 11:26:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedInReactPages/Order (react)/MyAccount_Label' is present
+
+2018-05-29 11:26:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/MyAccount_Label' is present
+
+2018-05-29 11:26:47 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-29 11:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-29 11:26:47 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/VINdisplayed' is visible
+
+2018-05-29 11:26:47 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/VINdisplayed' is visible
+
+2018-05-29 11:26:47 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)
+
+2018-05-29 11:27:18 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582438365.png]]
+
+2018-05-29 11:27:19 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582438828.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-29 11:26:33 - [TEST_CASE][FAILED] - Test Cases/CheckVINfromHomeLoggedIn - NoSticker: Test Cases/CheckVINfromHomeLoggedIn - NoSticker FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckVINfromHomeLoggedIn - ShortVINwith9Digits" classname="Test Cases/CheckVINfromHomeLoggedIn - ShortVINwith9Digits" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' is visible (Root cause: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)"/>
+         <system-out><![CDATA[2018-05-29 11:27:19 - [TEST_CASE][FAILED] - Test Cases/CheckVINfromHomeLoggedIn - ShortVINwith9Digits: Test Cases/CheckVINfromHomeLoggedIn - ShortVINwith9Digits FAILED because (of) Unable to verify object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' is visible (Root cause: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)
+
+2018-05-29 11:27:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-29 11:27:19 - [TEST_CASE][PASSED] - Test Cases/Base Tests/LoginBaseTest: Test Cases/Base Tests/LoginBaseTest
+
+2018-05-29 11:27:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-29 11:27:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-29 11:27:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-29 11:27:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-29 11:27:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-29 11:27:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:27:25 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:27:25 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Label' is hovered
+
+2018-05-29 11:27:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Label' is hovered
+
+2018-05-29 11:27:25 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is visible
+
+2018-05-29 11:27:25 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is visible
+
+2018-05-29 11:27:25 - [TEST_STEP][PASSED] - setText: Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Email_input'
+
+2018-05-29 11:27:26 - [MESSAGE][PASSED] - Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Email_input'
+
+2018-05-29 11:27:26 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Password_input'
+
+2018-05-29 11:27:26 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Password_input'
+
+2018-05-29 11:27:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is clicked on
+
+2018-05-29 11:27:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is clicked on
+
+2018-05-29 11:27:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-29 11:27:26 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-29 11:27:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-29 11:27:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:27:28 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:27:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' is present
+
+2018-05-29 11:27:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:27:28 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' is present
+
+2018-05-29 11:27:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-29 11:27:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:27:28 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-29 11:27:28 - [TEST_STEP][PASSED] - setText: Text '7J1012752' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input'
+
+2018-05-29 11:27:28 - [MESSAGE][PASSED] - Text '7J1012752' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input'
+
+2018-05-29 11:27:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/SubmitVinArrow_Button' is clicked on
+
+2018-05-29 11:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/SubmitVinArrow_Button' is clicked on
+
+2018-05-29 11:27:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-29 11:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:27:29 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-29 11:27:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedInReactPages/Order (react)/MyAccount_Label' is present
+
+2018-05-29 11:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:27:29 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/MyAccount_Label' is present
+
+2018-05-29 11:27:29 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' located by 'By.xpath: //div[@class='CloseButton']' is not present after '30' second(s)
+
+2018-05-29 11:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:27:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' located by 'By.xpath: //div[@class='CloseButton']' is not present after '30' second(s)
+
+2018-05-29 11:27:29 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VINdisplayed' located by 'By.xpath: //span[@id='VehicleSummary_Vin']' is not present after '30' second(s)
+
+2018-05-29 11:27:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:27:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VINdisplayed' located by 'By.xpath: //span[@id='VehicleSummary_Vin']' is not present after '30' second(s)
+
+2018-05-29 11:27:29 - [TEST_STEP][FAILED] - verifyElementVisible: Unable to verify object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' is visible (Root cause: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)
+
+2018-05-29 11:28:00 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582480501.png]]
+
+2018-05-29 11:28:01 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' is visible (Root cause: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582480935.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-29 11:27:19 - [TEST_CASE][FAILED] - Test Cases/CheckVINfromHomeLoggedIn - ShortVINwith9Digits: Test Cases/CheckVINfromHomeLoggedIn - ShortVINwith9Digits FAILED because (of) Unable to verify object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' is visible (Root cause: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckVINfromHomeLoggedIn - Success" classname="Test Cases/CheckVINfromHomeLoggedIn - Success" status="FAILED">
+         <failure type="FAILED" message="Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' FAILED. (Root cause: Actual text 'Records Are Available For Your Vehicle' and expected text 'Window Sticker is Available For Your Vehicle' of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' are NOT matched.)"/>
+         <system-out><![CDATA[2018-05-29 11:28:01 - [TEST_CASE][FAILED] - Test Cases/CheckVINfromHomeLoggedIn - Success: Test Cases/CheckVINfromHomeLoggedIn - Success FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' FAILED. (Root cause: Actual text 'Records Are Available For Your Vehicle' and expected text 'Window Sticker is Available For Your Vehicle' of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' are NOT matched.)
+
+2018-05-29 11:28:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-29 11:28:01 - [TEST_CASE][PASSED] - Test Cases/Base Tests/LoginBaseTest: Test Cases/Base Tests/LoginBaseTest
+
+2018-05-29 11:28:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-29 11:28:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-29 11:28:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-29 11:28:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-29 11:28:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-29 11:28:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:28:07 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:28:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Label' is hovered
+
+2018-05-29 11:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Label' is hovered
+
+2018-05-29 11:28:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is visible
+
+2018-05-29 11:28:07 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is visible
+
+2018-05-29 11:28:07 - [TEST_STEP][PASSED] - setText: Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Email_input'
+
+2018-05-29 11:28:08 - [MESSAGE][PASSED] - Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Email_input'
+
+2018-05-29 11:28:08 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Password_input'
+
+2018-05-29 11:28:08 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/CommonElements/Password_input'
+
+2018-05-29 11:28:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is clicked on
+
+2018-05-29 11:28:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CommonElements/SignIn_Button' is clicked on
+
+2018-05-29 11:28:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-29 11:28:08 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-29 11:28:09 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-29 11:28:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:28:10 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:28:10 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' is present
+
+2018-05-29 11:28:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:10 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' is present
+
+2018-05-29 11:28:10 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-29 11:28:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:10 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-29 11:28:10 - [TEST_STEP][PASSED] - setText: Text '5UXKR0C52F0P15679' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input'
+
+2018-05-29 11:28:10 - [MESSAGE][PASSED] - Text '5UXKR0C52F0P15679' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/EnterVIN_input'
+
+2018-05-29 11:28:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/SubmitVinArrow_Button' is clicked on
+
+2018-05-29 11:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/SubmitVinArrow_Button' is clicked on
+
+2018-05-29 11:28:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-29 11:28:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-29 11:28:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedInReactPages/Order (react)/MyAccount_Label' is present
+
+2018-05-29 11:28:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/MyAccount_Label' is present
+
+2018-05-29 11:28:12 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-29 11:28:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-29 11:28:12 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/VINdisplayed' is visible
+
+2018-05-29 11:28:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/VINdisplayed' is visible
+
+2018-05-29 11:28:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VINdisplayed' are matched.
+
+2018-05-29 11:28:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VINdisplayed' are matched.
+
+2018-05-29 11:28:12 - [TEST_STEP][FAILED] - verifyElementText: Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' FAILED. (Root cause: Actual text 'Records Are Available For Your Vehicle' and expected text 'Window Sticker is Available For Your Vehicle' of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' are NOT matched.)
+
+2018-05-29 11:28:12 - [MESSAGE][FAILED] - Actual text 'Records Are Available For Your Vehicle' and expected text 'Window Sticker is Available For Your Vehicle' of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' are NOT matched.
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582492500.png]]
+
+2018-05-29 11:28:13 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' FAILED. (Root cause: Actual text 'Records Are Available For Your Vehicle' and expected text 'Window Sticker is Available For Your Vehicle' of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' are NOT matched.)
+[[ATTACHMENT|C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180529_112629\\1527582492912.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-29 11:28:01 - [TEST_CASE][FAILED] - Test Cases/CheckVINfromHomeLoggedIn - Success: Test Cases/CheckVINfromHomeLoggedIn - Success FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' FAILED. (Root cause: Actual text 'Records Are Available For Your Vehicle' and expected text 'Window Sticker is Available For Your Vehicle' of test object 'Object Repository/LoggedInReactPages/Order (react)/RecordsAreAvailable_Alert' are NOT matched.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CaDealerRequest - ValidFields" classname="Test Cases/CaDealerRequest - ValidFields" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order' and expected object 'https://staging.instavin.com/_O/CA-Dealer-Specials/order' (Root cause: Actual object 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order' and expected object 'https://staging.instavin.com/_O/CA-Dealer-Specials/order' are not equal)"/>
+         <system-out><![CDATA[2018-05-29 11:28:13 - [TEST_CASE][FAILED] - Test Cases/CaDealerRequest - ValidFields: Test Cases/CaDealerRequest - ValidFields FAILED because (of) Unable to verify equal between actual object 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order' and expected object 'https://staging.instavin.com/_O/CA-Dealer-Specials/order' (Root cause: Actual object 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order' and expected object 'https://staging.instavin.com/_O/CA-Dealer-Specials/order' are not equal)
+
+2018-05-29 11:28:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-29 11:28:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-29 11:28:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-29 11:28:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-29 11:28:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-29 11:28:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:28:19 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:28:19 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/Dealers_Label' is hovered
+
+2018-05-29 11:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/Dealers_Label' is hovered
+
+2018-05-29 11:28:19 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/CaliforniaDealers_Link' is visible
+
+2018-05-29 11:28:19 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/CaliforniaDealers_Link' is visible
+
+2018-05-29 11:28:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/CaliforniaDealers_Link' is clicked on
+
+2018-05-29 11:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/CaliforniaDealers_Link' is clicked on
+
+2018-05-29 11:28:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutReactPages/Dealers/SignUpTop_Button' is visible
+
+2018-05-29 11:28:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:21 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/Dealers/SignUpTop_Button' is visible
+
+2018-05-29 11:28:21 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'instaVIN Reports complies with the California Assembly Bill 1215 salvage sticker law' is present on page 
+
+2018-05-29 11:28:21 - [MESSAGE][PASSED] - Text 'instaVIN Reports complies with the California Assembly Bill 1215 salvage sticker law' is present on page 
+
+2018-05-29 11:28:21 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'CA Law AB1215 Overview' is present on page 
+
+2018-05-29 11:28:21 - [MESSAGE][PASSED] - Text 'CA Law AB1215 Overview' is present on page 
+
+2018-05-29 11:28:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/Dealers/SignUpTop_Button' is clicked on
+
+2018-05-29 11:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/Dealers/SignUpTop_Button' is clicked on
+
+2018-05-29 11:28:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutReactPages/Dealers/DealerSignUp_Header' is visible
+
+2018-05-29 11:28:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:21 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/Dealers/DealerSignUp_Header' is visible
+
+2018-05-29 11:28:21 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-29 11:28:21 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-29 11:28:21 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["dealer", rnd, "@mailinator.com"]): Concatenated string array: '['dealer','20180529112821708','@mailinator.com']' into 'dealer20180529112821708@mailinator.com'
+
+2018-05-29 11:28:21 - [MESSAGE][PASSED] - Concatenated string array: '['dealer','20180529112821708','@mailinator.com']' into 'dealer20180529112821708@mailinator.com'
+
+2018-05-29 11:28:21 - [TEST_STEP][PASSED] - setText: Text 'Test Dealer' is set on object 'Object Repository/LoggedOutReactPages/Dealers/DealerName_Input'
+
+2018-05-29 11:28:21 - [MESSAGE][PASSED] - Text 'Test Dealer' is set on object 'Object Repository/LoggedOutReactPages/Dealers/DealerName_Input'
+
+2018-05-29 11:28:21 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/Dealers/AccessID_Input'
+
+2018-05-29 11:28:22 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/Dealers/AccessID_Input'
+
+2018-05-29 11:28:22 - [TEST_STEP][PASSED] - setText: Text 'www.test.co' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Website_Input'
+
+2018-05-29 11:28:22 - [MESSAGE][PASSED] - Text 'www.test.co' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Website_Input'
+
+2018-05-29 11:28:22 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Address_Input'
+
+2018-05-29 11:28:22 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Address_Input'
+
+2018-05-29 11:28:22 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/Dealers/City_Input'
+
+2018-05-29 11:28:22 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/Dealers/City_Input'
+
+2018-05-29 11:28:22 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CA' are selected in object 'Object Repository/LoggedOutReactPages/CreateAccount/State_Dropdown' 
+
+2018-05-29 11:28:22 - [MESSAGE][PASSED] - All options with value 'CA' are selected in object 'Object Repository/LoggedOutReactPages/CreateAccount/State_Dropdown' 
+
+2018-05-29 11:28:22 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Zip_Input'
+
+2018-05-29 11:28:22 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Zip_Input'
+
+2018-05-29 11:28:22 - [TEST_STEP][PASSED] - setText: Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/Dealers/FirstName_Input'
+
+2018-05-29 11:28:23 - [MESSAGE][PASSED] - Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/Dealers/FirstName_Input'
+
+2018-05-29 11:28:23 - [TEST_STEP][PASSED] - setText: Text 'Autotest' is set on object 'Object Repository/LoggedOutReactPages/Dealers/LastName_Input'
+
+2018-05-29 11:28:23 - [MESSAGE][PASSED] - Text 'Autotest' is set on object 'Object Repository/LoggedOutReactPages/Dealers/LastName_Input'
+
+2018-05-29 11:28:23 - [TEST_STEP][PASSED] - setText: Text 'dealer20180529112821708@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Email_Input'
+
+2018-05-29 11:28:23 - [MESSAGE][PASSED] - Text 'dealer20180529112821708@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Email_Input'
+
+2018-05-29 11:28:23 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Phone_Input'
+
+2018-05-29 11:28:24 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Phone_Input'
+
+2018-05-29 11:28:24 - [TEST_STEP][PASSED] - setText: Text 'Test message text' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Message_InputArea'
+
+2018-05-29 11:28:24 - [MESSAGE][PASSED] - Text 'Test message text' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Message_InputArea'
+
+2018-05-29 11:28:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/Dealers/DealerSubmit_Button' is clicked on
+
+2018-05-29 11:28:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/Dealers/DealerSubmit_Button' is clicked on
+
+2018-05-29 11:28:24 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedOutReactPages/Dealers/Confirmation_Modal' is present
+
+2018-05-29 11:28:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:24 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/Dealers/Confirmation_Modal' is present
+
+2018-05-29 11:28:24 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Click OK to be redirected to instaVIN® Dealer pricing. Dealers - Buy in Bundles and Save!' is present on page 
+
+2018-05-29 11:28:25 - [MESSAGE][PASSED] - Text 'Click OK to be redirected to instaVIN® Dealer pricing. Dealers - Buy in Bundles and Save!' is present on page 
+
+2018-05-29 11:28:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/Dealers/OkConfirmation_Button' is clicked on
+
+2018-05-29 11:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/Dealers/OkConfirmation_Button' is clicked on
+
+2018-05-29 11:28:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutReactPages/DealersOrder/EnterVin_Field' is visible
+
+2018-05-29 11:28:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:26 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/DealersOrder/EnterVin_Field' is visible
+
+2018-05-29 11:28:26 - [TEST_STEP][PASSED] - Statement - RedirectURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order'
+
+2018-05-29 11:28:26 - [MESSAGE][PASSED] - Current window's url is: 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order'
+
+2018-05-29 11:28:26 - [TEST_STEP][PASSED] - Statement - ExpectedURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StartURL, "_O/CA-Dealer-Specials/order"]): Concatenated string array: '['https://staging.instavin.com/','_O/CA-Dealer-Specials/order']' into 'https://staging.instavin.com/_O/CA-Dealer-Specials/order'
+
+2018-05-29 11:28:26 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','_O/CA-Dealer-Specials/order']' into 'https://staging.instavin.com/_O/CA-Dealer-Specials/order'
+
+2018-05-29 11:28:26 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order' and expected object 'https://staging.instavin.com/_O/CA-Dealer-Specials/order' (Root cause: Actual object 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order' and expected object 'https://staging.instavin.com/_O/CA-Dealer-Specials/order' are not equal)
+
+2018-05-29 11:28:26 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order' and expected object 'https://staging.instavin.com/_O/CA-Dealer-Specials/order' (Root cause: Actual object 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order' and expected object 'https://staging.instavin.com/_O/CA-Dealer-Specials/order' are not equal)]]></system-out>
+         <system-err><![CDATA[2018-05-29 11:28:13 - [TEST_CASE][FAILED] - Test Cases/CaDealerRequest - ValidFields: Test Cases/CaDealerRequest - ValidFields FAILED because (of) Unable to verify equal between actual object 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order' and expected object 'https://staging.instavin.com/_O/CA-Dealer-Specials/order' (Root cause: Actual object 'https://dev-front.instavin.com/_O/CA-Dealer-Specials/order' and expected object 'https://staging.instavin.com/_O/CA-Dealer-Specials/order' are not equal)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DealerRequest - ValidFields" classname="Test Cases/DealerRequest - ValidFields" status="FAILED">
+         <failure type="FAILED" message="Unable to verify equal between actual object 'https://dev-front.instavin.com/_O/dealer-bundles/order' and expected object 'https://staging.instavin.com/_O/dealer-bundles/order' (Root cause: Actual object 'https://dev-front.instavin.com/_O/dealer-bundles/order' and expected object 'https://staging.instavin.com/_O/dealer-bundles/order' are not equal)"/>
+         <system-out><![CDATA[2018-05-29 11:28:26 - [TEST_CASE][FAILED] - Test Cases/DealerRequest - ValidFields: Test Cases/DealerRequest - ValidFields FAILED because (of) Unable to verify equal between actual object 'https://dev-front.instavin.com/_O/dealer-bundles/order' and expected object 'https://staging.instavin.com/_O/dealer-bundles/order' (Root cause: Actual object 'https://dev-front.instavin.com/_O/dealer-bundles/order' and expected object 'https://staging.instavin.com/_O/dealer-bundles/order' are not equal)
+
+2018-05-29 11:28:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-29 11:28:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-29 11:28:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-29 11:28:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-29 11:28:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-29 11:28:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:28:33 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-29 11:28:33 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/Dealers_Label' is hovered
+
+2018-05-29 11:28:33 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/Dealers_Label' is hovered
+
+2018-05-29 11:28:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/DealerProgram_Link' is visible
+
+2018-05-29 11:28:33 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut/DealerProgram_Link' is visible
+
+2018-05-29 11:28:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/DealerProgram_Link' is clicked on
+
+2018-05-29 11:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut/DealerProgram_Link' is clicked on
+
+2018-05-29 11:28:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutReactPages/Dealers/SignUpTop_Button' is visible
+
+2018-05-29 11:28:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/Dealers/SignUpTop_Button' is visible
+
+2018-05-29 11:28:34 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Welcome Dealers!' is present on page 
+
+2018-05-29 11:28:34 - [MESSAGE][PASSED] - Text 'Welcome Dealers!' is present on page 
+
+2018-05-29 11:28:34 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Get more data to help make better decisions, including' is present on page 
+
+2018-05-29 11:28:34 - [MESSAGE][PASSED] - Text 'Get more data to help make better decisions, including' is present on page 
+
+2018-05-29 11:28:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/Dealers/SignUpTop_Button' is clicked on
+
+2018-05-29 11:28:35 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/Dealers/SignUpTop_Button' is clicked on
+
+2018-05-29 11:28:35 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutReactPages/Dealers/DealerSignUp_Header' is visible
+
+2018-05-29 11:28:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:35 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/Dealers/DealerSignUp_Header' is visible
+
+2018-05-29 11:28:35 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-29 11:28:35 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-29 11:28:35 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["dealer", rnd, "@mailinator.com"]): Concatenated string array: '['dealer','20180529112835195','@mailinator.com']' into 'dealer20180529112835195@mailinator.com'
+
+2018-05-29 11:28:35 - [MESSAGE][PASSED] - Concatenated string array: '['dealer','20180529112835195','@mailinator.com']' into 'dealer20180529112835195@mailinator.com'
+
+2018-05-29 11:28:35 - [TEST_STEP][PASSED] - setText: Text 'Test Dealer' is set on object 'Object Repository/LoggedOutReactPages/Dealers/DealerName_Input'
+
+2018-05-29 11:28:35 - [MESSAGE][PASSED] - Text 'Test Dealer' is set on object 'Object Repository/LoggedOutReactPages/Dealers/DealerName_Input'
+
+2018-05-29 11:28:35 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/Dealers/AccessID_Input'
+
+2018-05-29 11:28:35 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/Dealers/AccessID_Input'
+
+2018-05-29 11:28:35 - [TEST_STEP][PASSED] - setText: Text 'www.test.co' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Website_Input'
+
+2018-05-29 11:28:35 - [MESSAGE][PASSED] - Text 'www.test.co' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Website_Input'
+
+2018-05-29 11:28:35 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Address_Input'
+
+2018-05-29 11:28:35 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Address_Input'
+
+2018-05-29 11:28:35 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/Dealers/City_Input'
+
+2018-05-29 11:28:36 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/Dealers/City_Input'
+
+2018-05-29 11:28:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/CreateAccount/State_Dropdown' 
+
+2018-05-29 11:28:36 - [MESSAGE][PASSED] - All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/CreateAccount/State_Dropdown' 
+
+2018-05-29 11:28:36 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Zip_Input'
+
+2018-05-29 11:28:36 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Zip_Input'
+
+2018-05-29 11:28:36 - [TEST_STEP][PASSED] - setText: Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/Dealers/FirstName_Input'
+
+2018-05-29 11:28:36 - [MESSAGE][PASSED] - Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/Dealers/FirstName_Input'
+
+2018-05-29 11:28:36 - [TEST_STEP][PASSED] - setText: Text 'Autotest' is set on object 'Object Repository/LoggedOutReactPages/Dealers/LastName_Input'
+
+2018-05-29 11:28:36 - [MESSAGE][PASSED] - Text 'Autotest' is set on object 'Object Repository/LoggedOutReactPages/Dealers/LastName_Input'
+
+2018-05-29 11:28:36 - [TEST_STEP][PASSED] - setText: Text 'dealer20180529112835195@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Email_Input'
+
+2018-05-29 11:28:37 - [MESSAGE][PASSED] - Text 'dealer20180529112835195@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Email_Input'
+
+2018-05-29 11:28:37 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Phone_Input'
+
+2018-05-29 11:28:37 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Phone_Input'
+
+2018-05-29 11:28:37 - [TEST_STEP][PASSED] - setText: Text 'Test message text' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Message_InputArea'
+
+2018-05-29 11:28:37 - [MESSAGE][PASSED] - Text 'Test message text' is set on object 'Object Repository/LoggedOutReactPages/Dealers/Message_InputArea'
+
+2018-05-29 11:28:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/Dealers/DealerSubmit_Button' is clicked on
+
+2018-05-29 11:28:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/Dealers/DealerSubmit_Button' is clicked on
+
+2018-05-29 11:28:37 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedOutReactPages/Dealers/Confirmation_Modal' is present
+
+2018-05-29 11:28:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:28:38 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/Dealers/Confirmation_Modal' is present
+
+2018-05-29 11:28:38 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Click OK to be redirected to instaVIN® Dealer pricing. Dealers - Buy in Bundles and Save!' is present on page 
+
+2018-05-29 11:28:38 - [MESSAGE][PASSED] - Text 'Click OK to be redirected to instaVIN® Dealer pricing. Dealers - Buy in Bundles and Save!' is present on page 
+
+2018-05-29 11:28:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/Dealers/OkConfirmation_Button' is clicked on
+
+2018-05-29 11:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/Dealers/OkConfirmation_Button' is clicked on
+
+2018-05-29 11:29:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutReactPages/DealersOrder/EnterVin_Field' is visible
+
+2018-05-29 11:29:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-29 11:29:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/DealersOrder/EnterVin_Field' is visible
+
+2018-05-29 11:29:01 - [TEST_STEP][PASSED] - Statement - RedirectURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://dev-front.instavin.com/_O/dealer-bundles/order'
+
+2018-05-29 11:29:01 - [MESSAGE][PASSED] - Current window's url is: 'https://dev-front.instavin.com/_O/dealer-bundles/order'
+
+2018-05-29 11:29:01 - [TEST_STEP][PASSED] - Statement - ExpectedURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StartURL, "_O/dealer-bundles/order"]): Concatenated string array: '['https://staging.instavin.com/','_O/dealer-bundles/order']' into 'https://staging.instavin.com/_O/dealer-bundles/order'
+
+2018-05-29 11:29:01 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','_O/dealer-bundles/order']' into 'https://staging.instavin.com/_O/dealer-bundles/order'
+
+2018-05-29 11:29:01 - [TEST_STEP][FAILED] - verifyEqual: Unable to verify equal between actual object 'https://dev-front.instavin.com/_O/dealer-bundles/order' and expected object 'https://staging.instavin.com/_O/dealer-bundles/order' (Root cause: Actual object 'https://dev-front.instavin.com/_O/dealer-bundles/order' and expected object 'https://staging.instavin.com/_O/dealer-bundles/order' are not equal)
+
+2018-05-29 11:29:01 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'https://dev-front.instavin.com/_O/dealer-bundles/order' and expected object 'https://staging.instavin.com/_O/dealer-bundles/order' (Root cause: Actual object 'https://dev-front.instavin.com/_O/dealer-bundles/order' and expected object 'https://staging.instavin.com/_O/dealer-bundles/order' are not equal)]]></system-out>
+         <system-err><![CDATA[2018-05-29 11:28:26 - [TEST_CASE][FAILED] - Test Cases/DealerRequest - ValidFields: Test Cases/DealerRequest - ValidFields FAILED because (of) Unable to verify equal between actual object 'https://dev-front.instavin.com/_O/dealer-bundles/order' and expected object 'https://staging.instavin.com/_O/dealer-bundles/order' (Root cause: Actual object 'https://dev-front.instavin.com/_O/dealer-bundles/order' and expected object 'https://staging.instavin.com/_O/dealer-bundles/order' are not equal)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-29 11:26:32 - [TEST_SUITE][FAILED] - Staging Smoke Test Suite: Test Cases/CheckVINfromHomeLoggedIn - NoSticker FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-29 11:26:32 - [TEST_SUITE][FAILED] - Staging Smoke Test Suite: Test Cases/CheckVINfromHomeLoggedIn - NoSticker FAILED because (of) Verify element text of test object 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' FAILED. (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/LoggedInReactPages/Order (react)/VinDetails_Alert' located by 'By.xpath: //div[@class='orderVinDetails']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

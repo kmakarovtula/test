@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SignUpDealer - IncorrectEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fed03bc6-4aa9-4827-ad63-525d330bc0ae</testCaseGuid>
+   <variable>
+      <defaultValue>'111111'</defaultValue>
+      <description></description>
+      <id>86e94bf0-528c-468f-8d98-7a7c5e8899bb</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+</TestCaseEntity>

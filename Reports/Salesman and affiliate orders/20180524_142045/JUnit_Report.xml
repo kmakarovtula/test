@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Salesman and affiliate orders" time="231" tests="6" failures="0" errors="0">
+   <testsuite name="Salesman and affiliate orders" tests="6" failures="0" errors="0" time="231" timestamp="2018-05-24 14:20:48" hostname="KSavinkin - LPksavinkin.TC.local" id="Test Suites/Salesman and affiliate orders">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Salesman and affiliate orders\\20180524_142045"/>
+         <property name="logFiles" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Salesman and affiliate orders\\20180524_142045\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KSavinkin - LPksavinkin.TC.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="192.168.102.8"/>
+         <property name="sessionId" value="f6a7583a76dbfd2aebab8f85ce26eb57"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Affiliate - BuyVTRCaDealer" classname="Test Cases/Affiliate - BuyVTRCaDealer" status="PASSED">
+         <system-out><![CDATA[2018-05-24 14:20:49 - [TEST_CASE][PASSED] - Test Cases/Affiliate - BuyVTRCaDealer: Test Cases/Affiliate - BuyVTRCaDealer
+
+2018-05-24 14:20:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 14:20:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 14:20:55 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 14:20:56 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 14:20:56 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, AffiliateURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','_O/autotest/','order/']' into 'https://staging.instavin.com/_O/autotest/order/'
+
+2018-05-24 14:20:56 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','_O/autotest/','order/']' into 'https://staging.instavin.com/_O/autotest/order/'
+
+2018-05-24 14:20:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:20:59 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:20:59 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:20:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:20:59 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:20:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:20:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:20:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:20:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:20:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:20:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:20:59 - [TEST_STEP][PASSED] - setText: Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:21:00 - [MESSAGE][PASSED] - Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:21:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:21:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:21:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:21:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:21:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:21:01 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:21:01 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-24 14:21:01 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-24 14:21:01 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["affiliate", rnd, "@mailinator.com"]): Concatenated string array: '['affiliate','20180524142101686','@mailinator.com']' into 'affiliate20180524142101686@mailinator.com'
+
+2018-05-24 14:21:01 - [MESSAGE][PASSED] - Concatenated string array: '['affiliate','20180524142101686','@mailinator.com']' into 'affiliate20180524142101686@mailinator.com'
+
+2018-05-24 14:21:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:21:01 - [TEST_CASE][PASSED] - Test Cases/Base Tests/OrderSignUpBase: Test Cases/Base Tests/OrderSignUpBase
+
+2018-05-24 14:21:02 - [TEST_STEP][PASSED] - setText: Text 'Affiliate' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:21:03 - [MESSAGE][PASSED] - Text 'Affiliate' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:21:03 - [TEST_STEP][PASSED] - setText: Text 'Cadealer' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:21:03 - [MESSAGE][PASSED] - Text 'Cadealer' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:21:03 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:21:04 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:21:04 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:21:04 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:21:04 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CA' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:21:04 - [MESSAGE][PASSED] - All options with value 'CA' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:21:04 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:21:05 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:21:05 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:21:05 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:21:05 - [TEST_STEP][PASSED] - setText: Text 'affiliate20180524142101686@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:21:06 - [MESSAGE][PASSED] - Text 'affiliate20180524142101686@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:21:06 - [TEST_STEP][PASSED] - setText: Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:21:06 - [MESSAGE][PASSED] - Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:21:06 - [TEST_STEP][PASSED] - setText: Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:21:07 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:21:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:21:07 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:21:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:21:07 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:21:07 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:21:07 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:21:08 - [TEST_STEP][PASSED] - check: Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:21:08 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:21:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:21:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:21:09 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clickable
+
+2018-05-24 14:21:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:21:09 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clickable
+
+2018-05-24 14:21:09 - [TEST_STEP][PASSED] - Statement - Price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["Only ", Vtr1]): Concatenated string array: '['Only ','$333.00']' into 'Only $333.00'
+
+2018-05-24 14:21:09 - [MESSAGE][PASSED] - Concatenated string array: '['Only ','$333.00']' into 'Only $333.00'
+
+2018-05-24 14:21:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:21:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:21:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:21:09 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:21:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:21:13 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:21:13 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:21:14 - [MESSAGE][PASSED] - Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:21:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:21:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:21:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:21:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:21:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:21:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:21:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:21:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:21:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:21:15 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:21:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:21:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:21:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:21:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:21:17 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:21:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:21:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:21:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:21:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:21:17 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:21:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:21:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-24 14:21:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Affiliate - BuyVTRConsumer" classname="Test Cases/Affiliate - BuyVTRConsumer" status="PASSED">
+         <system-out><![CDATA[2018-05-24 14:21:18 - [TEST_CASE][PASSED] - Test Cases/Affiliate - BuyVTRConsumer: Test Cases/Affiliate - BuyVTRConsumer
+
+2018-05-24 14:21:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 14:21:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 14:21:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 14:21:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 14:21:22 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, AffiliateURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','_O/autotest/','order/']' into 'https://staging.instavin.com/_O/autotest/order/'
+
+2018-05-24 14:21:22 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','_O/autotest/','order/']' into 'https://staging.instavin.com/_O/autotest/order/'
+
+2018-05-24 14:21:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:21:25 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:21:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:21:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:21:25 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:21:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:21:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:21:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:21:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:21:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:21:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:21:25 - [TEST_STEP][PASSED] - setText: Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:21:26 - [MESSAGE][PASSED] - Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:21:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:21:26 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:21:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:21:27 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:21:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:21:27 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:21:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:21:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:21:27 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-24 14:21:27 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-24 14:21:27 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["affiliate", rnd, "@mailinator.com"]): Concatenated string array: '['affiliate','20180524142127965','@mailinator.com']' into 'affiliate20180524142127965@mailinator.com'
+
+2018-05-24 14:21:27 - [MESSAGE][PASSED] - Concatenated string array: '['affiliate','20180524142127965','@mailinator.com']' into 'affiliate20180524142127965@mailinator.com'
+
+2018-05-24 14:21:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:21:28 - [TEST_CASE][PASSED] - Test Cases/Base Tests/OrderSignUpBase: Test Cases/Base Tests/OrderSignUpBase
+
+2018-05-24 14:21:28 - [TEST_STEP][PASSED] - setText: Text 'Affiliate' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:21:29 - [MESSAGE][PASSED] - Text 'Affiliate' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:21:29 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:21:30 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:21:30 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:21:30 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:21:30 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:21:31 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:21:31 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:21:31 - [MESSAGE][PASSED] - All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:21:31 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:21:33 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:21:33 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:21:33 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:21:33 - [TEST_STEP][PASSED] - setText: Text 'affiliate20180524142127965@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:21:35 - [MESSAGE][PASSED] - Text 'affiliate20180524142127965@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:21:35 - [TEST_STEP][PASSED] - setText: Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:21:36 - [MESSAGE][PASSED] - Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:21:36 - [TEST_STEP][PASSED] - setText: Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:21:36 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:21:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:21:37 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:21:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:21:37 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:21:39 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:21:39 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:21:39 - [TEST_STEP][PASSED] - check: Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:21:39 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:21:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:21:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:21:40 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clickable
+
+2018-05-24 14:21:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:21:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clickable
+
+2018-05-24 14:21:41 - [TEST_STEP][PASSED] - Statement - Price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["Only ", Vtr1]): Concatenated string array: '['Only ','$333.00']' into 'Only $333.00'
+
+2018-05-24 14:21:41 - [MESSAGE][PASSED] - Concatenated string array: '['Only ','$333.00']' into 'Only $333.00'
+
+2018-05-24 14:21:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:21:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:21:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:21:42 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:21:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:22:09 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:22:09 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:22:09 - [MESSAGE][PASSED] - Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:22:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:22:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:22:09 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:22:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:22:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:22:11 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:22:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:22:11 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:22:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:22:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:22:11 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:22:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:22:11 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:22:11 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:22:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:22:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:22:12 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:22:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:22:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:22:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:22:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:22:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-24 14:22:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Affiliate - BuyVTRDealer" classname="Test Cases/Affiliate - BuyVTRDealer" status="PASSED">
+         <system-out><![CDATA[2018-05-24 14:22:13 - [TEST_CASE][PASSED] - Test Cases/Affiliate - BuyVTRDealer: Test Cases/Affiliate - BuyVTRDealer
+
+2018-05-24 14:22:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 14:22:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 14:22:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 14:22:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 14:22:18 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, AffiliateURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','_O/autotest/','order/']' into 'https://staging.instavin.com/_O/autotest/order/'
+
+2018-05-24 14:22:18 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','_O/autotest/','order/']' into 'https://staging.instavin.com/_O/autotest/order/'
+
+2018-05-24 14:22:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:22:21 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:22:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:22:21 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:22:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:22:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:22:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:22:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:22:21 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:22:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:22:21 - [TEST_STEP][PASSED] - setText: Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:22:21 - [MESSAGE][PASSED] - Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:22:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:22:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:22:22 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:22:22 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:22:22 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:22:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:22:25 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:22:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:22:25 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:22:25 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-24 14:22:25 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-24 14:22:25 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["affiliate", rnd, "@mailinator.com"]): Concatenated string array: '['affiliate','20180524142225465','@mailinator.com']' into 'affiliate20180524142225465@mailinator.com'
+
+2018-05-24 14:22:25 - [MESSAGE][PASSED] - Concatenated string array: '['affiliate','20180524142225465','@mailinator.com']' into 'affiliate20180524142225465@mailinator.com'
+
+2018-05-24 14:22:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:22:25 - [TEST_CASE][PASSED] - Test Cases/Base Tests/OrderSignUpBase: Test Cases/Base Tests/OrderSignUpBase
+
+2018-05-24 14:22:27 - [TEST_STEP][PASSED] - setText: Text 'Affiliate' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:22:28 - [MESSAGE][PASSED] - Text 'Affiliate' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:22:28 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:22:29 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:22:29 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:22:30 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:22:30 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:22:30 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:22:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:22:32 - [MESSAGE][PASSED] - All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:22:32 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:22:33 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:22:33 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:22:33 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:22:33 - [TEST_STEP][PASSED] - setText: Text 'affiliate20180524142225465@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:22:35 - [MESSAGE][PASSED] - Text 'affiliate20180524142225465@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:22:35 - [TEST_STEP][PASSED] - setText: Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:22:36 - [MESSAGE][PASSED] - Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:22:36 - [TEST_STEP][PASSED] - setText: Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:22:37 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:22:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:22:37 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:22:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:22:38 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:22:38 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:22:39 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:22:39 - [TEST_STEP][PASSED] - check: Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:22:39 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:22:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:22:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:22:39 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clickable
+
+2018-05-24 14:22:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:22:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clickable
+
+2018-05-24 14:22:41 - [TEST_STEP][PASSED] - Statement - Price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["Only ", Vtr1]): Concatenated string array: '['Only ','$333.00']' into 'Only $333.00'
+
+2018-05-24 14:22:41 - [MESSAGE][PASSED] - Concatenated string array: '['Only ','$333.00']' into 'Only $333.00'
+
+2018-05-24 14:22:41 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:22:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:22:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:22:43 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:22:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:22:47 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:22:47 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:22:47 - [MESSAGE][PASSED] - Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:22:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:22:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:22:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:22:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:22:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:22:49 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:22:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:22:49 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:22:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:22:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:22:50 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:22:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:22:50 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:22:50 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:22:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:22:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:22:54 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/autotest/order/' successfully
+
+2018-05-24 14:22:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:22:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:22:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:22:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:22:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:22:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:22:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-24 14:22:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Salesman - BuyVtrCaDealer" classname="Test Cases/Salesman - BuyVtrCaDealer" status="PASSED">
+         <system-out><![CDATA[2018-05-24 14:22:55 - [TEST_CASE][PASSED] - Test Cases/Salesman - BuyVtrCaDealer: Test Cases/Salesman - BuyVtrCaDealer
+
+2018-05-24 14:22:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 14:22:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 14:22:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 14:22:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 14:22:59 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, SalesmanURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','_O/Autotest(salesman)/','order/']' into 'https://staging.instavin.com/_O/Autotest(salesman)/order/'
+
+2018-05-24 14:22:59 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','_O/Autotest(salesman)/','order/']' into 'https://staging.instavin.com/_O/Autotest(salesman)/order/'
+
+2018-05-24 14:22:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:23:03 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:23:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:23:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:23:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:23:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:23:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:23:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:23:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:23:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:23:03 - [TEST_STEP][PASSED] - setText: Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:23:04 - [MESSAGE][PASSED] - Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:23:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:23:04 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:23:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:23:04 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:23:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:23:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:23:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:23:07 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-24 14:23:07 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-24 14:23:07 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["salesman", rnd, "@mailinator.com"]): Concatenated string array: '['salesman','20180524142307078','@mailinator.com']' into 'salesman20180524142307078@mailinator.com'
+
+2018-05-24 14:23:07 - [MESSAGE][PASSED] - Concatenated string array: '['salesman','20180524142307078','@mailinator.com']' into 'salesman20180524142307078@mailinator.com'
+
+2018-05-24 14:23:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:23:07 - [TEST_CASE][PASSED] - Test Cases/Base Tests/OrderSignUpBase: Test Cases/Base Tests/OrderSignUpBase
+
+2018-05-24 14:23:08 - [TEST_STEP][PASSED] - setText: Text 'Salesman' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:23:09 - [MESSAGE][PASSED] - Text 'Salesman' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:23:09 - [TEST_STEP][PASSED] - setText: Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:23:11 - [MESSAGE][PASSED] - Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:23:11 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:23:12 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:23:12 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:23:12 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:23:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'CA' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:23:14 - [MESSAGE][PASSED] - All options with value 'CA' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:23:14 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:23:15 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:23:15 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:23:16 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:23:17 - [TEST_STEP][PASSED] - setText: Text 'salesman20180524142307078@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:23:18 - [MESSAGE][PASSED] - Text 'salesman20180524142307078@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:23:18 - [TEST_STEP][PASSED] - setText: Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:23:18 - [MESSAGE][PASSED] - Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:23:18 - [TEST_STEP][PASSED] - setText: Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:23:19 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:23:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:23:19 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:23:19 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:23:20 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:23:20 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:23:20 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:23:20 - [TEST_STEP][PASSED] - check: Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:23:21 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:23:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:23:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:23:21 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clickable
+
+2018-05-24 14:23:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:22 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clickable
+
+2018-05-24 14:23:22 - [TEST_STEP][PASSED] - Statement - Price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["Only ", Vtr1]): Concatenated string array: '['Only ','$1,551.00']' into 'Only $1,551.00'
+
+2018-05-24 14:23:22 - [MESSAGE][PASSED] - Concatenated string array: '['Only ','$1,551.00']' into 'Only $1,551.00'
+
+2018-05-24 14:23:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:23:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:23:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:23:23 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:23:23 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:23:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:23:27 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:23:27 - [MESSAGE][PASSED] - Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:23:27 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:23:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:23:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:23:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:23:28 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is present
+
+2018-05-24 14:23:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:28 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is present
+
+2018-05-24 14:23:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:23:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:23:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:23:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:29 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:23:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:23:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:23:29 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:23:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:29 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:23:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:23:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:23:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:23:31 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:23:31 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:23:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:23:32 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:23:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:23:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-24 14:23:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Salesman - BuyVTRConsumer" classname="Test Cases/Salesman - BuyVTRConsumer" status="PASSED">
+         <system-out><![CDATA[2018-05-24 14:23:32 - [TEST_CASE][PASSED] - Test Cases/Salesman - BuyVTRConsumer: Test Cases/Salesman - BuyVTRConsumer
+
+2018-05-24 14:23:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 14:23:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 14:23:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 14:23:37 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 14:23:37 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, SalesmanURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','_O/Autotest(salesman)/','order/']' into 'https://staging.instavin.com/_O/Autotest(salesman)/order/'
+
+2018-05-24 14:23:37 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','_O/Autotest(salesman)/','order/']' into 'https://staging.instavin.com/_O/Autotest(salesman)/order/'
+
+2018-05-24 14:23:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:23:40 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:23:40 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:23:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:40 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:23:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:23:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:23:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:23:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:23:40 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:23:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:23:40 - [TEST_STEP][PASSED] - setText: Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:23:40 - [MESSAGE][PASSED] - Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:23:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:23:41 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:23:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:23:41 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:23:42 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:23:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:23:42 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:23:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:42 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:23:42 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-24 14:23:42 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-24 14:23:44 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["salesman", rnd, "@mailinator.com"]): Concatenated string array: '['salesman','20180524142342979','@mailinator.com']' into 'salesman20180524142342979@mailinator.com'
+
+2018-05-24 14:23:44 - [MESSAGE][PASSED] - Concatenated string array: '['salesman','20180524142342979','@mailinator.com']' into 'salesman20180524142342979@mailinator.com'
+
+2018-05-24 14:23:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:23:44 - [TEST_CASE][PASSED] - Test Cases/Base Tests/OrderSignUpBase: Test Cases/Base Tests/OrderSignUpBase
+
+2018-05-24 14:23:45 - [TEST_STEP][PASSED] - setText: Text 'Salesman' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:23:46 - [MESSAGE][PASSED] - Text 'Salesman' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:23:46 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:23:47 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:23:47 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:23:49 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:23:49 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:23:50 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:23:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:23:50 - [MESSAGE][PASSED] - All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:23:50 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:23:51 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:23:51 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:23:52 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:23:53 - [TEST_STEP][PASSED] - setText: Text 'salesman20180524142342979@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:23:54 - [MESSAGE][PASSED] - Text 'salesman20180524142342979@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:23:54 - [TEST_STEP][PASSED] - setText: Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:23:55 - [MESSAGE][PASSED] - Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:23:55 - [TEST_STEP][PASSED] - setText: Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:23:56 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:23:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:23:56 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:23:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:23:57 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:23:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '0' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:23:57 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:23:57 - [TEST_STEP][PASSED] - check: Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:23:58 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:23:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:23:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:23:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:23:58 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clickable
+
+2018-05-24 14:23:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:23:59 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clickable
+
+2018-05-24 14:23:59 - [TEST_STEP][PASSED] - Statement - Price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["Only ", Vtr1]): Concatenated string array: '['Only ','$1,551.00']' into 'Only $1,551.00'
+
+2018-05-24 14:23:59 - [MESSAGE][PASSED] - Concatenated string array: '['Only ','$1,551.00']' into 'Only $1,551.00'
+
+2018-05-24 14:23:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:23:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:24:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:24:01 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:24:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:05 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:24:05 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:24:05 - [MESSAGE][PASSED] - Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:24:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:24:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:24:05 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:24:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:24:05 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is present
+
+2018-05-24 14:24:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:05 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is present
+
+2018-05-24 14:24:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:24:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:24:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:08 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:24:08 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:24:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:24:08 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:24:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:10 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:24:10 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:24:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:24:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:24:12 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:24:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:24:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:24:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:24:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:24:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-24 14:24:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Salesman - BuyVTRDealer" classname="Test Cases/Salesman - BuyVTRDealer" status="PASSED">
+         <system-out><![CDATA[2018-05-24 14:24:13 - [TEST_CASE][PASSED] - Test Cases/Salesman - BuyVTRDealer: Test Cases/Salesman - BuyVTRDealer
+
+2018-05-24 14:24:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-24 14:24:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-24 14:24:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-24 14:24:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-24 14:24:17 - [TEST_STEP][PASSED] - Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, SalesmanURL, "order/"]): Concatenated string array: '['https://staging.instavin.com/','_O/Autotest(salesman)/','order/']' into 'https://staging.instavin.com/_O/Autotest(salesman)/order/'
+
+2018-05-24 14:24:17 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','_O/Autotest(salesman)/','order/']' into 'https://staging.instavin.com/_O/Autotest(salesman)/order/'
+
+2018-05-24 14:24:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:24:19 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:24:19 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:24:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:19 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/instaVINProducts_Label' is visible
+
+2018-05-24 14:24:19 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:24:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:24:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:24:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:24:20 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:24:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice50' are matched.
+
+2018-05-24 14:24:20 - [TEST_STEP][PASSED] - setText: Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:24:20 - [MESSAGE][PASSED] - Text 'SAJWA43C199B29849' is set on object 'Object Repository/LoggedInReactPages/Order (react)/VINCheckForm_EnterVINInput'
+
+2018-05-24 14:24:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CheckVin_ArrowButton' is clicked on
+
+2018-05-24 14:24:21 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:24:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ChangeVIN_Cross' is visible
+
+2018-05-24 14:24:21 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is visible
+
+2018-05-24 14:24:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/OrderNow_OrangeButton' is clicked on
+
+2018-05-24 14:24:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:24:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:22 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is visible
+
+2018-05-24 14:24:22 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-24 14:24:22 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHHmmssSSS").toString(): null
+
+2018-05-24 14:24:23 - [TEST_STEP][PASSED] - Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["salesman", rnd, "@mailinator.com"]): Concatenated string array: '['salesman','20180524142422961','@mailinator.com']' into 'salesman20180524142422961@mailinator.com'
+
+2018-05-24 14:24:23 - [MESSAGE][PASSED] - Concatenated string array: '['salesman','20180524142422961','@mailinator.com']' into 'salesman20180524142422961@mailinator.com'
+
+2018-05-24 14:24:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:24:23 - [TEST_CASE][PASSED] - Test Cases/Base Tests/OrderSignUpBase: Test Cases/Base Tests/OrderSignUpBase
+
+2018-05-24 14:24:23 - [TEST_STEP][PASSED] - setText: Text 'Salesman' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:24:23 - [MESSAGE][PASSED] - Text 'Salesman' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/FirstName_Input'
+
+2018-05-24 14:24:23 - [TEST_STEP][PASSED] - setText: Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:24:24 - [MESSAGE][PASSED] - Text 'Dealer' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/LastName_Input'
+
+2018-05-24 14:24:24 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:24:24 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Address_Input'
+
+2018-05-24 14:24:24 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:24:25 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/City_Input'
+
+2018-05-24 14:24:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:24:25 - [MESSAGE][PASSED] - All options with value 'TX' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/State_Dropdown' 
+
+2018-05-24 14:24:25 - [TEST_STEP][PASSED] - setText: Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:24:26 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Zip_Input'
+
+2018-05-24 14:24:26 - [TEST_STEP][PASSED] - setText: Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:24:26 - [MESSAGE][PASSED] - Text '8001112233' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Phone_Input'
+
+2018-05-24 14:24:26 - [TEST_STEP][PASSED] - setText: Text 'salesman20180524142422961@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:24:27 - [MESSAGE][PASSED] - Text 'salesman20180524142422961@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Email_Input'
+
+2018-05-24 14:24:27 - [TEST_STEP][PASSED] - setText: Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:24:28 - [MESSAGE][PASSED] - Text '4000100011112224' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CcNumber_Input'
+
+2018-05-24 14:24:28 - [TEST_STEP][PASSED] - setText: Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:24:28 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/CVV_Input'
+
+2018-05-24 14:24:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:24:28 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationMonth_Dropdown' 
+
+2018-05-24 14:24:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:24:29 - [MESSAGE][PASSED] - All options with value '2020' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/ExpirationYear_Dropdown' 
+
+2018-05-24 14:24:29 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:24:29 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/UserType_Dropdown' 
+
+2018-05-24 14:24:29 - [TEST_STEP][PASSED] - check: Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:24:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/OrderLoggedOut/Terms_Checkbox' is checked
+
+2018-05-24 14:24:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:24:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/Purchase_Button' is clicked on
+
+2018-05-24 14:24:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/OrderSignUpBase' successfully
+
+2018-05-24 14:24:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is visible
+
+2018-05-24 14:24:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is visible
+
+2018-05-24 14:24:30 - [TEST_STEP][PASSED] - Statement - Price = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["Only ", Vtr1]): Concatenated string array: '['Only ','$1,551.00']' into 'Only $1,551.00'
+
+2018-05-24 14:24:30 - [MESSAGE][PASSED] - Concatenated string array: '['Only ','$1,551.00']' into 'Only $1,551.00'
+
+2018-05-24 14:24:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:24:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/Confirm_Price' are matched.
+
+2018-05-24 14:24:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/CompletePurchase_Button' is clicked on
+
+2018-05-24 14:24:31 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:24:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:35 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clickable
+
+2018-05-24 14:24:35 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:24:35 - [MESSAGE][PASSED] - Text 'Thank you for using instaVIN!' is present on page 
+
+2018-05-24 14:24:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:24:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - Vin' are matched.
+
+2018-05-24 14:24:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:24:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport - ReportType' are matched.
+
+2018-05-24 14:24:35 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is present
+
+2018-05-24 14:24:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:35 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is present
+
+2018-05-24 14:24:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/Order (react)/ViewReport_Button' is clicked on
+
+2018-05-24 14:24:37 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:24:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:37 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportHeader' is visible
+
+2018-05-24 14:24:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:24:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/VehicleTitle' are matched.
+
+2018-05-24 14:24:37 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:24:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-24 14:24:37 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' has attribute 'class' with value 'ReportGrade AlertSuccess'
+
+2018-05-24 14:24:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:24:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/ReportSummary/ReportType' are matched.
+
+2018-05-24 14:24:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:24:39 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/_O/Autotest(salesman)/order/' successfully
+
+2018-05-24 14:24:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:24:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice1' are matched.
+
+2018-05-24 14:24:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:24:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInReactPages/Order (react)/VtrPrice10' are matched.
+
+2018-05-24 14:24:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-24 14:24:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-24 14:20:48 - [TEST_SUITE][PASSED] - Salesman and affiliate orders: Test Cases/Salesman - BuyVTRDealer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Zip_ErrorMessage</name>
+   <tag></tag>
+   <elementGuidId>800f5e32-af4f-46a0-bca5-84f09636f888</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='BuyerInfo']//div[@class='FormSectionContainer']//div[contains(@class,'FieldComboBox')]//div[@class='Field_Small']//span[@class='field-validation-error']//span[contains(text(),'Required')]</value>
+   </webElementProperties>
+</WebElementEntity>

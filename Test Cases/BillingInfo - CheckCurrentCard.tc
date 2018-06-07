@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BillingInfo - CheckCurrentCard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09d2ef9c-4489-4f0f-9ad1-e36492aa7f94</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.Consumer1Firstname</defaultValue>
+      <description></description>
+      <id>a72a0cab-5965-4077-8064-e0450854d9e9</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Consumer1LastName</defaultValue>
+      <description></description>
+      <id>ef6bd37f-691e-41c5-bf67-263ca4fee133</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Pass1</defaultValue>
+      <description></description>
+      <id>7d4a824f-3fa0-40f5-b07f-d8fa7613e20f</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ConsumerEmail1</defaultValue>
+      <description></description>
+      <id>4e048079-1fe7-43e3-abde-8175df7b2eb9</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a255048-c06d-4eab-97d7-725c50e5ce77</id>
+      <masked>false</masked>
+      <name>HeaderText</name>
+   </variable>
+</TestCaseEntity>

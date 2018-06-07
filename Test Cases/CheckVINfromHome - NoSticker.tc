@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckVINfromHome - NoSticker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fad4dd9d-79bb-4b6f-9452-96f0a26e13c8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.VINnoSticker</defaultValue>
+      <description></description>
+      <id>49a2045b-14db-4a23-b416-235cc6cbc597</id>
+      <masked>false</masked>
+      <name>VIN</name>
+   </variable>
+</TestCaseEntity>

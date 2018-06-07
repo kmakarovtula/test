@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Dealers_Label</name>
+   <tag></tag>
+   <elementGuidId>38c8cc1d-56e8-4a14-9348-6825bcf28ea2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//html//ul[@class='MainMenu']/li[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//ul[@class='MainMenu']/li[4]</value>
+   </webElementProperties>
+</WebElementEntity>

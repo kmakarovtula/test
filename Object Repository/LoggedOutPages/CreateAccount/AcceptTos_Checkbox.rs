@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>AcceptTos_Checkbox</name>
+   <tag></tag>
+   <elementGuidId>3db080cc-8362-49f3-8cdb-eb144cfdc568</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[@class='forCheckbox']//input[@type='checkbox']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[@class='forCheckbox']//input[@type='checkbox']</value>
+   </webElementProperties>
+</WebElementEntity>

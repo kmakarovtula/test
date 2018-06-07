@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FirstPricePointPrice</name>
+   <tag></tag>
+   <elementGuidId>9520b926-ebc1-48e4-9062-7b2db891c634</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='PricingPanel']/div[@class='PricingOptionsContainer']/form/div[3]/div[2]</value>
+   </webElementProperties>
+</WebElementEntity>

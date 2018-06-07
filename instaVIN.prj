@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>instaVIN</name>
+   <tag></tag>
+   <UUID>52e093da-535d-4fb5-aff8-ae257b9b9f91</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <recentExpandedTreeEntityIds>Test Cases</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Cases/Base Tests</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository/LoggedInReactPages</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Object Repository/LoggedOutReactPages/OrderLoggedOut</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Test Suites</recentExpandedTreeEntityIds>
+   <recentExpandedTreeEntityIds>Profiles</recentExpandedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Profiles/staging</recentOpenedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Suites/Staging Smoke Test Suite</recentOpenedTreeEntityIds>
+   <recentOpenedTreeEntityIds>Test Suites/Staging Smoke Test Suite.groovy</recentOpenedTreeEntityIds>
+</Project>

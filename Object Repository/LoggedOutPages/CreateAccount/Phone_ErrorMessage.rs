@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Phone_ErrorMessage</name>
+   <tag></tag>
+   <elementGuidId>dd24b0d8-3407-4fe9-ac2a-d10b7b60afdb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//div[@id='BuyerInfo']/div[3]/div[1]/div[2]/span[1]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

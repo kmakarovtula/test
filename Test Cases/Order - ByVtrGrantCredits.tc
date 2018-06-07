@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Order - ByVtrGrantCredits</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b10963e0-5258-4c9b-9574-ce9360c6d67e</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.Pass1</defaultValue>
+      <description></description>
+      <id>8b840ddb-7a1c-4a18-9024-bfb36ab382aa</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ValidCCNumber</defaultValue>
+      <description></description>
+      <id>aa9835c9-2f6c-4f9c-b161-5a483a9a1555</id>
+      <masked>false</masked>
+      <name>CCNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>029c0b45-1f7e-48fa-be1c-4295a1a1f939</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.VINnoData</defaultValue>
+      <description></description>
+      <id>93172456-1393-4cc9-ae28-10a827a13c3a</id>
+      <masked>false</masked>
+      <name>VIN</name>
+   </variable>
+</TestCaseEntity>

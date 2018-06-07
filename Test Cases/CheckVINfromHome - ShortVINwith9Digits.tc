@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckVINfromHome - ShortVINwith9Digits</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a40c2582-ab98-4686-9e4c-d59dc8830cdd</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.VINShort</defaultValue>
+      <description></description>
+      <id>485aea01-053e-4b49-8d8d-dc947cfdc35e</id>
+      <masked>false</masked>
+      <name>VIN</name>
+   </variable>
+</TestCaseEntity>

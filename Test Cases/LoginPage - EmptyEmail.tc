@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginPage - EmptyEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e7c21be-3d22-4ecc-9149-c6aacd1e106d</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.StagingReact</defaultValue>
+      <description></description>
+      <id>581443db-b69f-41d0-a97c-8a91bcf56f35</id>
+      <masked>false</masked>
+      <name>StartURL</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckVINfromHomeLoggedIn - NoSticker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c360c3be-0ccb-4a67-9a99-b9024c85df18</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.VINnoSticker</defaultValue>
+      <description></description>
+      <id>c7aceda5-fcf4-4dd0-9f58-31061a813b77</id>
+      <masked>false</masked>
+      <name>VIN</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ConsumerEmail1</defaultValue>
+      <description></description>
+      <id>8096c2c9-f047-47f2-a06d-d4cbe2e43293</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Pass1</defaultValue>
+      <description></description>
+      <id>717fd91a-11d0-4831-ae41-5e232225054c</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+</TestCaseEntity>

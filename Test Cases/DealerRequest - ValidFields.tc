@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DealerRequest - ValidFields</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0dfa981-e4bf-4af2-a46d-d10ea94793b8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.StagingReact</defaultValue>
+      <description></description>
+      <id>83d0e1e2-8a72-4776-80d0-4309b1595979</id>
+      <masked>false</masked>
+      <name>StartURL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de69ee8a-68ae-42c6-a038-9b4ca9081ac1</id>
+      <masked>false</masked>
+      <name>rnd</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5d53311-c794-4528-99e6-b622737a1e5f</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+</TestCaseEntity>

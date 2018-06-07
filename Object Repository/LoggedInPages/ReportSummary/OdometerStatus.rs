@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OdometerStatus</name>
+   <tag></tag>
+   <elementGuidId>e681b430-fbcb-4c88-9a9b-f37b11173f2e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//div[@class='SummaryTileContainer']/div[@data-site-tab='{&quot;tabId&quot;:&quot;odometer&quot;,&quot;selectedCss&quot;:&quot;&quot;,&quot;deselectedCss&quot;:&quot;&quot;}']/div/table[1]/tbody[1]/tr[2]/td[2]/div[1]</value>
+   </webElementProperties>
+</WebElementEntity>

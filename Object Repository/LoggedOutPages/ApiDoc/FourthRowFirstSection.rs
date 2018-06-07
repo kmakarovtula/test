@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>FourthRowFirstSection</name>
+   <tag></tag>
+   <elementGuidId>0c64fd6f-97d9-4c7b-94ee-477237552a5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//div[@class='swagger-ui']//div[3]/section[1]/div/div[1]/div/div[4]/div/span[2]/a/span</value>
+   </webElementProperties>
+</WebElementEntity>

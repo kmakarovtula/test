@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Staging Smoke Test Suite" time="183" tests="15" failures="0" errors="0">
+   <testsuite name="Staging Smoke Test Suite" tests="15" failures="0" errors="0" time="183" timestamp="2018-05-14 11:18:44" hostname="KSavinkin - LPksavinkin.TC.local" id="Test Suites/Staging Smoke Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180514_111842"/>
+         <property name="logFiles" value="C:\\Projects\\instaVIN\\tests\\instaVIN\\Reports\\Staging Smoke Test Suite\\20180514_111842\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KSavinkin - LPksavinkin.TC.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.102.6"/>
+         <property name="sessionId" value="5a93ac809a0d1f8de54d68c5ade56aa1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/LoginEmptyEmail_react" classname="Test Cases/LoginEmptyEmail_react" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:18:44 - [TEST_CASE][PASSED] - Test Cases/LoginEmptyEmail_react: Test Cases/LoginEmptyEmail_react
+
+2018-05-14 11:18:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:18:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:18:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:18:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:18:50 - [TEST_STEP][PASSED] - Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "faq/"]): Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:18:50 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:18:50 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:18:53 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:18:53 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:18:53 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:18:53 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/ForgotPassword_Link' is visible
+
+2018-05-14 11:18:53 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/ForgotPassword_Link' is visible
+
+2018-05-14 11:18:53 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:18:53 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:18:53 - [TEST_STEP][PASSED] - setText: Text 'WrongPassword' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:18:53 - [MESSAGE][PASSED] - Text 'WrongPassword' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:18:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:18:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' is present
+
+2018-05-14 11:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:18:54 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' is present
+
+2018-05-14 11:18:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' is visible
+
+2018-05-14 11:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:18:54 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' is visible
+
+2018-05-14 11:18:54 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' are matched.
+
+2018-05-14 11:18:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' are matched.
+
+2018-05-14 11:18:54 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/FAQ/Email_input' has attribute 'class' with value 'error'
+
+2018-05-14 11:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:18:54 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/Email_input' has attribute 'class' with value 'error'
+
+2018-05-14 11:18:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:18:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginSuccess_react" classname="Test Cases/LoginSuccess_react" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:18:55 - [TEST_CASE][PASSED] - Test Cases/LoginSuccess_react: Test Cases/LoginSuccess_react
+
+2018-05-14 11:18:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:18:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:18:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:18:59 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:18:59 - [TEST_STEP][PASSED] - Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "faq/"]): Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:18:59 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:18:59 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:01 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/faq/' successfully
+
+2018-05-14 11:19:02 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/faq/' successfully
+
+2018-05-14 11:19:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is present
+
+2018-05-14 11:19:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:02 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is present
+
+2018-05-14 11:19:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:19:02 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is visible
+
+2018-05-14 11:19:02 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is visible
+
+2018-05-14 11:19:02 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/ForgotPassword_Link' is visible
+
+2018-05-14 11:19:03 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/ForgotPassword_Link' is visible
+
+2018-05-14 11:19:03 - [TEST_STEP][PASSED] - setText: Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:19:03 - [MESSAGE][PASSED] - Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:19:03 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:19:03 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:19:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:19:03 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedInReactPages/Dashboard (react)/Dashboard_Header' is visible
+
+2018-05-14 11:19:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/Dashboard (react)/Dashboard_Header' is visible
+
+2018-05-14 11:19:05 - [TEST_STEP][PASSED] - Statement - LoginRedirect = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl(): Current window's url is: 'https://staging.instavin.com/my-account'
+
+2018-05-14 11:19:05 - [MESSAGE][PASSED] - Current window's url is: 'https://staging.instavin.com/my-account'
+
+2018-05-14 11:19:05 - [TEST_STEP][PASSED] - Statement - ExpectedLoginRedirect = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "my-account"]): Concatenated string array: '['https://staging.instavin.com/','my-account']' into 'https://staging.instavin.com/my-account'
+
+2018-05-14 11:19:05 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','my-account']' into 'https://staging.instavin.com/my-account'
+
+2018-05-14 11:19:05 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'https://staging.instavin.com/my-account' and expected text 'https://staging.instavin.com/my-account' are matched 
+
+2018-05-14 11:19:05 - [MESSAGE][PASSED] - Actual text 'https://staging.instavin.com/my-account' and expected text 'https://staging.instavin.com/my-account' are matched 
+
+2018-05-14 11:19:05 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/DashboardSideMenu_Tab' has attribute 'class' with value 'SideMenuTab ActiveSideMenu'
+
+2018-05-14 11:19:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/DashboardSideMenu_Tab' has attribute 'class' with value 'SideMenuTab ActiveSideMenu'
+
+2018-05-14 11:19:05 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedInReactPages/MyAccount (react)/MyAccount_Label' is hovered
+
+2018-05-14 11:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/MyAccount (react)/MyAccount_Label' is hovered
+
+2018-05-14 11:19:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/DropdownLogout' is present
+
+2018-05-14 11:19:05 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/DropdownLogout' is present
+
+2018-05-14 11:19:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:19:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginWrongPass_react" classname="Test Cases/LoginWrongPass_react" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:19:06 - [TEST_CASE][PASSED] - Test Cases/LoginWrongPass_react: Test Cases/LoginWrongPass_react
+
+2018-05-14 11:19:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:19:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:19:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:19:09 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:19:09 - [TEST_STEP][PASSED] - Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "faq/"]): Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:19:09 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:19:09 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:12 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:12 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:19:12 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:19:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:19:12 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/ForgotPassword_Link' is visible
+
+2018-05-14 11:19:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/ForgotPassword_Link' is visible
+
+2018-05-14 11:19:12 - [TEST_STEP][PASSED] - setText: Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:19:13 - [MESSAGE][PASSED] - Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:19:13 - [TEST_STEP][PASSED] - setText: Text '222' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:19:13 - [MESSAGE][PASSED] - Text '222' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:19:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:19:13 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' is present
+
+2018-05-14 11:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:13 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' is present
+
+2018-05-14 11:19:13 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' is visible
+
+2018-05-14 11:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:13 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' is visible
+
+2018-05-14 11:19:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' are matched.
+
+2018-05-14 11:19:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/FAQ/SignInErrors_Area' are matched.
+
+2018-05-14 11:19:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:19:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/BillingInfo - CheckCurrentCard" classname="Test Cases/BillingInfo - CheckCurrentCard" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:19:14 - [TEST_CASE][PASSED] - Test Cases/BillingInfo - CheckCurrentCard: Test Cases/BillingInfo - CheckCurrentCard
+
+2018-05-14 11:19:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-14 11:19:15 - [TEST_CASE][PASSED] - Test Cases/Base Tests/LoginBaseTest: Test Cases/Base Tests/LoginBaseTest
+
+2018-05-14 11:19:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:19:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:19:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:19:18 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:19:18 - [TEST_STEP][PASSED] - Statement - faq_url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "faq/"]): Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:19:18 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:19:18 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:21 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:21 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:19:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:19:21 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:19:21 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:19:21 - [TEST_STEP][PASSED] - setText: Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:19:22 - [MESSAGE][PASSED] - Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:19:22 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:19:22 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:19:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:19:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-14 11:19:22 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-14 11:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-14 11:19:24 - [TEST_STEP][PASSED] - Statement - HeaderText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate(["For ", FirstName, " ", LastName], STOP_ON_FAILURE): Concatenated string array: '['For ','Uno',' ','Consumer']' into 'For Uno Consumer'
+
+2018-05-14 11:19:24 - [MESSAGE][PASSED] - Concatenated string array: '['For ','Uno',' ','Consumer']' into 'For Uno Consumer'
+
+2018-05-14 11:19:24 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'For Uno Consumer' is present on page 
+
+2018-05-14 11:19:24 - [MESSAGE][PASSED] - Text 'For Uno Consumer' is present on page 
+
+2018-05-14 11:19:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedInReactPages/BillingInfo (react)/BillingInfoSideMenu_Link' is clicked on
+
+2018-05-14 11:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedInReactPages/BillingInfo (react)/BillingInfoSideMenu_Link' is clicked on
+
+2018-05-14 11:19:24 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/BillingInfoSideMenu_Tab' has attribute 'class' with value 'SideMenuTab ActiveSideMenu'
+
+2018-05-14 11:19:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:24 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/BillingInfoSideMenu_Tab' has attribute 'class' with value 'SideMenuTab ActiveSideMenu'
+
+2018-05-14 11:19:24 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/BillingInfo (react)/VisaImage' is visible
+
+2018-05-14 11:19:25 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/BillingInfo (react)/VisaImage' is visible
+
+2018-05-14 11:19:25 - [TEST_STEP][PASSED] - verifyTextPresent: Text '•••• •••• •••• 2224' is present on page 
+
+2018-05-14 11:19:25 - [MESSAGE][PASSED] - Text '•••• •••• •••• 2224' is present on page 
+
+2018-05-14 11:19:25 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:19:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUpConsumer - EmptyFields (react)" classname="Test Cases/SignUpConsumer - EmptyFields (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:19:26 - [TEST_CASE][PASSED] - Test Cases/SignUpConsumer - EmptyFields (react): Test Cases/SignUpConsumer - EmptyFields (react)
+
+2018-05-14 11:19:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:19:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:19:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:19:30 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:19:30 - [TEST_STEP][PASSED] - Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "create-account"]): Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-14 11:19:30 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-14 11:19:30 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:33 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:33 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-14 11:19:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-14 11:19:33 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Buyer Information' is present on page 
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Text 'Buyer Information' is present on page 
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Name_Label' are matched.
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Name_Label' are matched.
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_Label' are matched.
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_Label' are matched.
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Submit_button' is clicked on
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Submit_button' is clicked on
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/FirstName_ErrorMessage' is present
+
+2018-05-14 11:19:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/FirstName_ErrorMessage' is present
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/FirstName_ErrorMessage' are matched.
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/FirstName_ErrorMessage' are matched.
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/LastName_ErrorMessage' is present
+
+2018-05-14 11:19:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/LastName_ErrorMessage' is present
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/LastName_ErrorMessage' are matched.
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/LastName_ErrorMessage' are matched.
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_ErrorMessage' is present
+
+2018-05-14 11:19:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_ErrorMessage' is present
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_ErrorMessage' are matched.
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Address_ErrorMessage' are matched.
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/City_ErrorMessage' is present
+
+2018-05-14 11:19:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/City_ErrorMessage' is present
+
+2018-05-14 11:19:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/City_ErrorMessage' are matched.
+
+2018-05-14 11:19:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/City_ErrorMessage' are matched.
+
+2018-05-14 11:19:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/State_ErrorMessage' is present
+
+2018-05-14 11:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:35 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/State_ErrorMessage' is present
+
+2018-05-14 11:19:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/State_ErrorMessage' are matched.
+
+2018-05-14 11:19:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/State_ErrorMessage' are matched.
+
+2018-05-14 11:19:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_ErrorMessage' is present
+
+2018-05-14 11:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:35 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_ErrorMessage' is present
+
+2018-05-14 11:19:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_ErrorMessage' are matched.
+
+2018-05-14 11:19:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_ErrorMessage' are matched.
+
+2018-05-14 11:19:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/Phone_ErrorMessage' is present
+
+2018-05-14 11:19:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:35 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/Phone_ErrorMessage' is present
+
+2018-05-14 11:19:35 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Phone_ErrorMessage' are matched.
+
+2018-05-14 11:19:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Phone_ErrorMessage' are matched.
+
+2018-05-14 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_ErrorMessage' is present
+
+2018-05-14 11:19:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_ErrorMessage' is present
+
+2018-05-14 11:19:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_ErrorMessage' are matched.
+
+2018-05-14 11:19:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_ErrorMessage' are matched.
+
+2018-05-14 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_ErrorMessage' is present
+
+2018-05-14 11:19:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_ErrorMessage' is present
+
+2018-05-14 11:19:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_ErrorMessage' are matched.
+
+2018-05-14 11:19:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_ErrorMessage' are matched.
+
+2018-05-14 11:19:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_ErrorMessage' is present
+
+2018-05-14 11:19:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:36 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_ErrorMessage' is present
+
+2018-05-14 11:19:36 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_ErrorMessage' are matched.
+
+2018-05-14 11:19:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_ErrorMessage' are matched.
+
+2018-05-14 11:19:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_ErrorMessage' is present
+
+2018-05-14 11:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_ErrorMessage' is present
+
+2018-05-14 11:19:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_ErrorMessage' are matched.
+
+2018-05-14 11:19:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_ErrorMessage' are matched.
+
+2018-05-14 11:19:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/CC_ErrorMessage' is present
+
+2018-05-14 11:19:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:37 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/CC_ErrorMessage' is present
+
+2018-05-14 11:19:37 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/CC_ErrorMessage' are matched.
+
+2018-05-14 11:19:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/CC_ErrorMessage' are matched.
+
+2018-05-14 11:19:37 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationMonth_ErrorMessage' is present
+
+2018-05-14 11:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:38 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationMonth_ErrorMessage' is present
+
+2018-05-14 11:19:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationMonth_ErrorMessage' are matched.
+
+2018-05-14 11:19:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationMonth_ErrorMessage' are matched.
+
+2018-05-14 11:19:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/CVV_ErrorMessage' is present
+
+2018-05-14 11:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:38 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/CVV_ErrorMessage' is present
+
+2018-05-14 11:19:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/CVV_ErrorMessage' are matched.
+
+2018-05-14 11:19:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/CVV_ErrorMessage' are matched.
+
+2018-05-14 11:19:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationYear_ErrorMessage' is present
+
+2018-05-14 11:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:38 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationYear_ErrorMessage' is present
+
+2018-05-14 11:19:38 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationYear_ErrorMessage' are matched.
+
+2018-05-14 11:19:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationYear_ErrorMessage' are matched.
+
+2018-05-14 11:19:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' is present
+
+2018-05-14 11:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:39 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' is present
+
+2018-05-14 11:19:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' are matched.
+
+2018-05-14 11:19:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' are matched.
+
+2018-05-14 11:19:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/Password_ErrorMessage' is present
+
+2018-05-14 11:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:39 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/Password_ErrorMessage' is present
+
+2018-05-14 11:19:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Password_ErrorMessage' are matched.
+
+2018-05-14 11:19:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Password_ErrorMessage' are matched.
+
+2018-05-14 11:19:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/AcceptTOS_ErrorMessage' is present
+
+2018-05-14 11:19:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:39 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/AcceptTOS_ErrorMessage' is present
+
+2018-05-14 11:19:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/AcceptTOS_ErrorMessage' are matched.
+
+2018-05-14 11:19:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/AcceptTOS_ErrorMessage' are matched.
+
+2018-05-14 11:19:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:19:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUpConsumer - IncorrectEmail (react)" classname="Test Cases/SignUpConsumer - IncorrectEmail (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:19:40 - [TEST_CASE][PASSED] - Test Cases/SignUpConsumer - IncorrectEmail (react): Test Cases/SignUpConsumer - IncorrectEmail (react)
+
+2018-05-14 11:19:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:19:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:19:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:19:44 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:19:44 - [TEST_STEP][PASSED] - Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "create-account"]): Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-14 11:19:44 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-14 11:19:44 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:47 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-14 11:19:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-14 11:19:47 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Buyer Information' is present on page 
+
+2018-05-14 11:19:47 - [MESSAGE][PASSED] - Text 'Buyer Information' is present on page 
+
+2018-05-14 11:19:47 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-05-14 11:19:47 - [TEST_STEP][PASSED] - Statement - rnd = now.format("yyyyMMddHH:mm:ssSSS").toString(): null
+
+2018-05-14 11:19:47 - [TEST_STEP][PASSED] - Statement - email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([rnd, "@mailinator.com"]): Concatenated string array: '['2018051411:19:47815','@mailinator.com']' into '2018051411:19:47815@mailinator.com'
+
+2018-05-14 11:19:47 - [MESSAGE][PASSED] - Concatenated string array: '['2018051411:19:47815','@mailinator.com']' into '2018051411:19:47815@mailinator.com'
+
+2018-05-14 11:19:47 - [TEST_STEP][PASSED] - setText: Text '2018051411:19:47815' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_Input'
+
+2018-05-14 11:19:48 - [MESSAGE][PASSED] - Text '2018051411:19:47815' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_Input'
+
+2018-05-14 11:19:48 - [TEST_STEP][PASSED] - setText: Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_Input'
+
+2018-05-14 11:19:48 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_Input'
+
+2018-05-14 11:19:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Password_Input' is clicked on
+
+2018-05-14 11:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Password_Input' is clicked on
+
+2018-05-14 11:19:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' is present
+
+2018-05-14 11:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' is present
+
+2018-05-14 11:19:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' are matched.
+
+2018-05-14 11:19:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' are matched.
+
+2018-05-14 11:19:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_ErrorMessage' is present
+
+2018-05-14 11:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:48 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_ErrorMessage' is present
+
+2018-05-14 11:19:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_ErrorMessage' are matched.
+
+2018-05-14 11:19:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_ErrorMessage' are matched.
+
+2018-05-14 11:19:48 - [TEST_STEP][PASSED] - setText: Text '2018051411:19:47815@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_Input'
+
+2018-05-14 11:19:49 - [MESSAGE][PASSED] - Text '2018051411:19:47815@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_Input'
+
+2018-05-14 11:19:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Password_Input' is clicked on
+
+2018-05-14 11:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Password_Input' is clicked on
+
+2018-05-14 11:19:49 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' located by 'By.xpath: //html//div[@id='AccountInfo']/div[1]/div[1]/div[2]/span[1]/span[1]' is not present after '30' second(s)
+
+2018-05-14 11:19:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:49 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' located by 'By.xpath: //html//div[@id='AccountInfo']/div[1]/div[1]/div[2]/span[1]/span[1]' is not present after '30' second(s)
+
+2018-05-14 11:19:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_ErrorMessage' is present
+
+2018-05-14 11:19:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:49 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_ErrorMessage' is present
+
+2018-05-14 11:19:49 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_ErrorMessage' are matched.
+
+2018-05-14 11:19:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_ErrorMessage' are matched.
+
+2018-05-14 11:19:49 - [TEST_STEP][PASSED] - setText: Text '2018051411:19:47815@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_Input'
+
+2018-05-14 11:19:50 - [MESSAGE][PASSED] - Text '2018051411:19:47815@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_Input'
+
+2018-05-14 11:19:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Password_Input' is clicked on
+
+2018-05-14 11:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Password_Input' is clicked on
+
+2018-05-14 11:19:50 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' located by 'By.xpath: //html//div[@id='AccountInfo']/div[1]/div[1]/div[2]/span[1]/span[1]' is not present after '30' second(s)
+
+2018-05-14 11:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' located by 'By.xpath: //html//div[@id='AccountInfo']/div[1]/div[1]/div[2]/span[1]/span[1]' is not present after '30' second(s)
+
+2018-05-14 11:19:50 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_ErrorMessage' located by 'By.xpath: //span[contains(text(),'Does not match the Email Address')]' is not present after '30' second(s)
+
+2018-05-14 11:19:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/LoggedOutReactPages/CreateAccount/ConfirmEmail_ErrorMessage' located by 'By.xpath: //span[contains(text(),'Does not match the Email Address')]' is not present after '30' second(s)
+
+2018-05-14 11:19:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:19:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SignUpDealer - EmptyFields (react)" classname="Test Cases/SignUpDealer - EmptyFields (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:19:51 - [TEST_CASE][PASSED] - Test Cases/SignUpDealer - EmptyFields (react): Test Cases/SignUpDealer - EmptyFields (react)
+
+2018-05-14 11:19:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:19:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:19:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:19:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:19:54 - [TEST_STEP][PASSED] - Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "create-account"]): Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-14 11:19:54 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','create-account']' into 'https://staging.instavin.com/create-account'
+
+2018-05-14 11:19:54 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:57 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:19:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Dealer_Button' is clicked on
+
+2018-05-14 11:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Dealer_Button' is clicked on
+
+2018-05-14 11:19:57 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-14 11:19:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Copy_Label' are matched.
+
+2018-05-14 11:19:57 - [TEST_STEP][NOT_RUN] - verifyTextPresent: NOT_RUN: verifyTextPresent
+
+2018-05-14 11:19:57 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent
+
+2018-05-14 11:19:57 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'AuctionACCESS ID Number' is present on page 
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Text 'AuctionACCESS ID Number' is present on page 
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Business Name' is present on page 
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Text 'Business Name' is present on page 
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Submit_button' is clicked on
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/CreateAccount/Submit_button' is clicked on
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessFirstName_ErrorMessage' is present
+
+2018-05-14 11:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessFirstName_ErrorMessage' is present
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessFirstName_ErrorMessage' are matched.
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessFirstName_ErrorMessage' are matched.
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessLastName_ErrorMessage' is present
+
+2018-05-14 11:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessLastName_ErrorMessage' is present
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessLastName_ErrorMessage' are matched.
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessLastName_ErrorMessage' are matched.
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessAddress_ErrorMessage' is present
+
+2018-05-14 11:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessAddress_ErrorMessage' is present
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessAddress_ErrorMessage' are matched.
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessAddress_ErrorMessage' are matched.
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessCity_ErrorMessage' is present
+
+2018-05-14 11:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessCity_ErrorMessage' is present
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessCity_ErrorMessage' are matched.
+
+2018-05-14 11:19:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessCity_ErrorMessage' are matched.
+
+2018-05-14 11:19:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/State_ErrorMessage' is present
+
+2018-05-14 11:19:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/State_ErrorMessage' is present
+
+2018-05-14 11:19:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/State_ErrorMessage' are matched.
+
+2018-05-14 11:19:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/State_ErrorMessage' are matched.
+
+2018-05-14 11:19:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_ErrorMessage' is present
+
+2018-05-14 11:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_ErrorMessage' is present
+
+2018-05-14 11:19:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_ErrorMessage' are matched.
+
+2018-05-14 11:19:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Zip_ErrorMessage' are matched.
+
+2018-05-14 11:19:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessPhone_ErrorMessage' is present
+
+2018-05-14 11:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessPhone_ErrorMessage' is present
+
+2018-05-14 11:19:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessPhone_ErrorMessage' are matched.
+
+2018-05-14 11:19:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BusinessPhone_ErrorMessage' are matched.
+
+2018-05-14 11:19:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_ErrorMessage' is present
+
+2018-05-14 11:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_ErrorMessage' is present
+
+2018-05-14 11:19:59 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_ErrorMessage' are matched.
+
+2018-05-14 11:19:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingFirstName_ErrorMessage' are matched.
+
+2018-05-14 11:19:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_ErrorMessage' is present
+
+2018-05-14 11:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_ErrorMessage' is present
+
+2018-05-14 11:20:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_ErrorMessage' are matched.
+
+2018-05-14 11:20:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingLastName_ErrorMessage' are matched.
+
+2018-05-14 11:20:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_ErrorMessage' is present
+
+2018-05-14 11:20:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_ErrorMessage' is present
+
+2018-05-14 11:20:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_ErrorMessage' are matched.
+
+2018-05-14 11:20:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingAddress_ErrorMessage' are matched.
+
+2018-05-14 11:20:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_ErrorMessage' is present
+
+2018-05-14 11:20:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_ErrorMessage' is present
+
+2018-05-14 11:20:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_ErrorMessage' are matched.
+
+2018-05-14 11:20:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/BillingZip_ErrorMessage' are matched.
+
+2018-05-14 11:20:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/CC_ErrorMessage' is present
+
+2018-05-14 11:20:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/CC_ErrorMessage' is present
+
+2018-05-14 11:20:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/CC_ErrorMessage' are matched.
+
+2018-05-14 11:20:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/CC_ErrorMessage' are matched.
+
+2018-05-14 11:20:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationMonth_ErrorMessage' is present
+
+2018-05-14 11:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationMonth_ErrorMessage' is present
+
+2018-05-14 11:20:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationMonth_ErrorMessage' are matched.
+
+2018-05-14 11:20:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationMonth_ErrorMessage' are matched.
+
+2018-05-14 11:20:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/CVV_ErrorMessage' is present
+
+2018-05-14 11:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/CVV_ErrorMessage' is present
+
+2018-05-14 11:20:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/CVV_ErrorMessage' are matched.
+
+2018-05-14 11:20:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/CVV_ErrorMessage' are matched.
+
+2018-05-14 11:20:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationYear_ErrorMessage' is present
+
+2018-05-14 11:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationYear_ErrorMessage' is present
+
+2018-05-14 11:20:01 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationYear_ErrorMessage' are matched.
+
+2018-05-14 11:20:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/ExpirationYear_ErrorMessage' are matched.
+
+2018-05-14 11:20:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' is present
+
+2018-05-14 11:20:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:02 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' is present
+
+2018-05-14 11:20:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' are matched.
+
+2018-05-14 11:20:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Email_ErrorMessage' are matched.
+
+2018-05-14 11:20:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/Password_ErrorMessage' is present
+
+2018-05-14 11:20:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:02 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/Password_ErrorMessage' is present
+
+2018-05-14 11:20:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Password_ErrorMessage' are matched.
+
+2018-05-14 11:20:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/Password_ErrorMessage' are matched.
+
+2018-05-14 11:20:02 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/CreateAccount/AcceptTOS_ErrorMessage' is present
+
+2018-05-14 11:20:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:02 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/CreateAccount/AcceptTOS_ErrorMessage' is present
+
+2018-05-14 11:20:03 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/AcceptTOS_ErrorMessage' are matched.
+
+2018-05-14 11:20:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutReactPages/CreateAccount/AcceptTOS_ErrorMessage' are matched.
+
+2018-05-14 11:20:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:20:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckVINfromHome - EmptyVIN (react)" classname="Test Cases/CheckVINfromHome - EmptyVIN (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:20:03 - [TEST_CASE][PASSED] - Test Cases/CheckVINfromHome - EmptyVIN (react): Test Cases/CheckVINfromHome - EmptyVIN (react)
+
+2018-05-14 11:20:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:20:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:20:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:20:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:20:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:20:09 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:20:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SignIn_Label' is present
+
+2018-05-14 11:20:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:09 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SignIn_Label' is present
+
+2018-05-14 11:20:09 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:20:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:09 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:20:09 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:20:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:10 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:20:10 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:20:10 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:20:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:20:12 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/DontHaveVIN_Link' is visible
+
+2018-05-14 11:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/DontHaveVIN_Link' is visible
+
+2018-05-14 11:20:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/Home LoggedOut (php)/button_Sign In' is present
+
+2018-05-14 11:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/Home LoggedOut (php)/button_Sign In' is present
+
+2018-05-14 11:20:12 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is NOT visible
+
+2018-05-14 11:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is NOT visible
+
+2018-05-14 11:20:12 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message_BadResults' are matched.
+
+2018-05-14 11:20:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message_BadResults' are matched.
+
+2018-05-14 11:20:12 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is NOT visible
+
+2018-05-14 11:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is NOT visible
+
+2018-05-14 11:20:12 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is visible
+
+2018-05-14 11:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is visible
+
+2018-05-14 11:20:12 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' has attribute 'value' with value ''
+
+2018-05-14 11:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' has attribute 'value' with value ''
+
+2018-05-14 11:20:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:20:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:20:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:20:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckVINfromHome - NoSticker (react)" classname="Test Cases/CheckVINfromHome - NoSticker (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:20:13 - [TEST_CASE][PASSED] - Test Cases/CheckVINfromHome - NoSticker (react): Test Cases/CheckVINfromHome - NoSticker (react)
+
+2018-05-14 11:20:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:20:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:20:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:20:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:20:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:20:19 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:20:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SignIn_Label' is present
+
+2018-05-14 11:20:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:19 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SignIn_Label' is present
+
+2018-05-14 11:20:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:20:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:19 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:20:19 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:20:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:20 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:20:20 - [TEST_STEP][PASSED] - setText: Text 'JF1SF63591H766643' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:20:20 - [MESSAGE][PASSED] - Text 'JF1SF63591H766643' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:20:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:20:22 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is visible
+
+2018-05-14 11:20:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:22 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is visible
+
+2018-05-14 11:20:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/Home LoggedOut (php)/button_Sign In' is present
+
+2018-05-14 11:20:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:22 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/Home LoggedOut (php)/button_Sign In' is present
+
+2018-05-14 11:20:22 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message' is visible
+
+2018-05-14 11:20:22 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message' is visible
+
+2018-05-14 11:20:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message' are matched.
+
+2018-05-14 11:20:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message' are matched.
+
+2018-05-14 11:20:22 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is visible
+
+2018-05-14 11:20:22 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is visible
+
+2018-05-14 11:20:22 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' are matched.
+
+2018-05-14 11:20:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' are matched.
+
+2018-05-14 11:20:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:20:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:22 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:20:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:20:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckVINfromHome - ShortVINwith9Digits (react)" classname="Test Cases/CheckVINfromHome - ShortVINwith9Digits (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:20:23 - [TEST_CASE][PASSED] - Test Cases/CheckVINfromHome - ShortVINwith9Digits (react): Test Cases/CheckVINfromHome - ShortVINwith9Digits (react)
+
+2018-05-14 11:20:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:20:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:20:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:20:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:20:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:20:30 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:20:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SignIn_Label' is present
+
+2018-05-14 11:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SignIn_Label' is present
+
+2018-05-14 11:20:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:20:30 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:20:30 - [TEST_STEP][PASSED] - setText: Text '7J1012752' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:20:30 - [MESSAGE][PASSED] - Text '7J1012752' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:20:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:20:34 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckResults_Alert' is visible
+
+2018-05-14 11:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckResults_Alert' is visible
+
+2018-05-14 11:20:34 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is NOT visible
+
+2018-05-14 11:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is NOT visible
+
+2018-05-14 11:20:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/Home LoggedOut (php)/button_Sign In' is present
+
+2018-05-14 11:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/Home LoggedOut (php)/button_Sign In' is present
+
+2018-05-14 11:20:34 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message_BadResults' is visible
+
+2018-05-14 11:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message_BadResults' is visible
+
+2018-05-14 11:20:34 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message_BadResults' are matched.
+
+2018-05-14 11:20:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message_BadResults' are matched.
+
+2018-05-14 11:20:34 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is NOT visible
+
+2018-05-14 11:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is NOT visible
+
+2018-05-14 11:20:34 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is visible
+
+2018-05-14 11:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is visible
+
+2018-05-14 11:20:34 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' has attribute 'value' with value '7J1012752'
+
+2018-05-14 11:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' has attribute 'value' with value '7J1012752'
+
+2018-05-14 11:20:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:20:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:20:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:20:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckVINfromHome - Success (react)" classname="Test Cases/CheckVINfromHome - Success (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:20:35 - [TEST_CASE][PASSED] - Test Cases/CheckVINfromHome - Success (react): Test Cases/CheckVINfromHome - Success (react)
+
+2018-05-14 11:20:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:20:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:20:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:20:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:20:39 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:20:41 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:20:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SignIn_Label' is present
+
+2018-05-14 11:20:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SignIn_Label' is present
+
+2018-05-14 11:20:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:20:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:20:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:20:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:20:41 - [TEST_STEP][PASSED] - setText: Text '5UXKR0C52F0P15679' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:20:42 - [MESSAGE][PASSED] - Text '5UXKR0C52F0P15679' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:20:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:20:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is visible
+
+2018-05-14 11:20:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:44 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is visible
+
+2018-05-14 11:20:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/Home LoggedOut (php)/button_Sign In' is present
+
+2018-05-14 11:20:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:44 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/Home LoggedOut (php)/button_Sign In' is present
+
+2018-05-14 11:20:44 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message' is visible
+
+2018-05-14 11:20:44 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message' is visible
+
+2018-05-14 11:20:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message' are matched.
+
+2018-05-14 11:20:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message' are matched.
+
+2018-05-14 11:20:44 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is visible
+
+2018-05-14 11:20:44 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is visible
+
+2018-05-14 11:20:44 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' are matched.
+
+2018-05-14 11:20:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' are matched.
+
+2018-05-14 11:20:44 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:20:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:44 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:20:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:20:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckVINfromHomeLoggedIn - EmptyVIN (react)" classname="Test Cases/CheckVINfromHomeLoggedIn - EmptyVIN (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:20:45 - [TEST_CASE][PASSED] - Test Cases/CheckVINfromHomeLoggedIn - EmptyVIN (react): Test Cases/CheckVINfromHomeLoggedIn - EmptyVIN (react)
+
+2018-05-14 11:20:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-14 11:20:46 - [TEST_CASE][PASSED] - Test Cases/Base Tests/LoginBaseTest: Test Cases/Base Tests/LoginBaseTest
+
+2018-05-14 11:20:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:20:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:20:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:20:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:20:49 - [TEST_STEP][PASSED] - Statement - faq_url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "faq/"]): Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:20:49 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:20:49 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:20:54 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:20:54 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:20:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:20:54 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:20:54 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:20:54 - [TEST_STEP][PASSED] - setText: Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:20:54 - [MESSAGE][PASSED] - Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:20:54 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:20:54 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:20:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:20:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-14 11:20:55 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-14 11:20:56 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-14 11:20:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:20:57 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:20:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:20:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:20:57 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:20:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:20:57 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:20:57 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:20:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:20:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:21:00 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:21:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/instaVINProducts_Label' is visible
+
+2018-05-14 11:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/instaVINProducts_Label' is visible
+
+2018-05-14 11:21:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/MyAccount_Label' is present
+
+2018-05-14 11:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/MyAccount_Label' is present
+
+2018-05-14 11:21:00 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is NOT visible
+
+2018-05-14 11:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is NOT visible
+
+2018-05-14 11:21:00 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is NOT visible
+
+2018-05-14 11:21:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is NOT visible
+
+2018-05-14 11:21:00 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message_BadResults' are matched.
+
+2018-05-14 11:21:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/RecordsAreAvailable_Message_BadResults' are matched.
+
+2018-05-14 11:21:01 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is visible
+
+2018-05-14 11:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is visible
+
+2018-05-14 11:21:01 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' has attribute 'value' with value ''
+
+2018-05-14 11:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' has attribute 'value' with value ''
+
+2018-05-14 11:21:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:21:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:21:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckVINfromHomeLoggedIn - NoSticker (react)" classname="Test Cases/CheckVINfromHomeLoggedIn - NoSticker (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:21:01 - [TEST_CASE][PASSED] - Test Cases/CheckVINfromHomeLoggedIn - NoSticker (react): Test Cases/CheckVINfromHomeLoggedIn - NoSticker (react)
+
+2018-05-14 11:21:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-14 11:21:02 - [TEST_CASE][PASSED] - Test Cases/Base Tests/LoginBaseTest: Test Cases/Base Tests/LoginBaseTest
+
+2018-05-14 11:21:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:21:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:21:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:21:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:21:05 - [TEST_STEP][PASSED] - Statement - faq_url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "faq/"]): Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:21:05 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:21:05 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:21:08 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:21:08 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:21:08 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:21:08 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:21:08 - [TEST_STEP][PASSED] - setText: Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:21:09 - [MESSAGE][PASSED] - Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:21:09 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:21:09 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:21:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:21:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-14 11:21:09 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-14 11:21:11 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-14 11:21:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:21:11 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:21:11 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:21:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:11 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:21:11 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:21:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:12 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:21:12 - [TEST_STEP][PASSED] - setText: Text 'JF1SF63591H766643' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:21:12 - [MESSAGE][PASSED] - Text 'JF1SF63591H766643' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:21:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:21:15 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/instaVINProducts_Label' is visible
+
+2018-05-14 11:21:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/instaVINProducts_Label' is visible
+
+2018-05-14 11:21:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/MyAccount_Label' is present
+
+2018-05-14 11:21:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/MyAccount_Label' is present
+
+2018-05-14 11:21:15 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is visible
+
+2018-05-14 11:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is visible
+
+2018-05-14 11:21:15 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is visible
+
+2018-05-14 11:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is visible
+
+2018-05-14 11:21:15 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/NoSticker_Message' are matched.
+
+2018-05-14 11:21:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/NoSticker_Message' are matched.
+
+2018-05-14 11:21:15 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is NOT visible
+
+2018-05-14 11:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is NOT visible
+
+2018-05-14 11:21:15 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:21:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:15 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:21:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:21:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckVINfromHomeLoggedIn - ShortVINwith9Digits (react)" classname="Test Cases/CheckVINfromHomeLoggedIn - ShortVINwith9Digits (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:21:16 - [TEST_CASE][PASSED] - Test Cases/CheckVINfromHomeLoggedIn - ShortVINwith9Digits (react): Test Cases/CheckVINfromHomeLoggedIn - ShortVINwith9Digits (react)
+
+2018-05-14 11:21:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-14 11:21:16 - [TEST_CASE][PASSED] - Test Cases/Base Tests/LoginBaseTest: Test Cases/Base Tests/LoginBaseTest
+
+2018-05-14 11:21:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:21:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:21:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:21:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:21:20 - [TEST_STEP][PASSED] - Statement - faq_url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "faq/"]): Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:21:20 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:21:20 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:21:24 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:21:24 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:21:24 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:21:24 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:21:24 - [TEST_STEP][PASSED] - setText: Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:21:24 - [MESSAGE][PASSED] - Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:21:24 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:21:24 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:21:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:21:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-14 11:21:24 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-14 11:21:26 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-14 11:21:26 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:21:27 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:21:27 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:21:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:21:27 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:21:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:21:27 - [TEST_STEP][PASSED] - setText: Text '7J1012752' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:21:27 - [MESSAGE][PASSED] - Text '7J1012752' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:21:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:21:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/instaVINProducts_Label' is visible
+
+2018-05-14 11:21:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/instaVINProducts_Label' is visible
+
+2018-05-14 11:21:30 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/MyAccount_Label' is present
+
+2018-05-14 11:21:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/MyAccount_Label' is present
+
+2018-05-14 11:21:30 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is NOT visible
+
+2018-05-14 11:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is NOT visible
+
+2018-05-14 11:21:30 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is NOT visible
+
+2018-05-14 11:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is NOT visible
+
+2018-05-14 11:21:30 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/OrderVINError_Message' is visible
+
+2018-05-14 11:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/OrderVINError_Message' is visible
+
+2018-05-14 11:21:30 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'The VIN entered is 9 digits long.' is present on page 
+
+2018-05-14 11:21:30 - [MESSAGE][PASSED] - Text 'The VIN entered is 9 digits long.' is present on page 
+
+2018-05-14 11:21:30 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'If your vehicle is a classic car, RV or specialty vehicle, this may be correct. However, no records are available from participating DMVs.' is present on page 
+
+2018-05-14 11:21:31 - [MESSAGE][PASSED] - Text 'If your vehicle is a classic car, RV or specialty vehicle, this may be correct. However, no records are available from participating DMVs.' is present on page 
+
+2018-05-14 11:21:31 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'If your VIN is for a vehicle produced after 1981 it should have exactly 17 digits.' is present on page 
+
+2018-05-14 11:21:31 - [MESSAGE][PASSED] - Text 'If your VIN is for a vehicle produced after 1981 it should have exactly 17 digits.' is present on page 
+
+2018-05-14 11:21:31 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Sorry, no Window Sticker is Available for this VIN.' is present on page 
+
+2018-05-14 11:21:32 - [MESSAGE][PASSED] - Text 'Sorry, no Window Sticker is Available for this VIN.' is present on page 
+
+2018-05-14 11:21:32 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is visible
+
+2018-05-14 11:21:32 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is visible
+
+2018-05-14 11:21:32 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' has attribute 'value' with value '7J1012752'
+
+2018-05-14 11:21:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:32 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' has attribute 'value' with value '7J1012752'
+
+2018-05-14 11:21:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:21:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:32 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:21:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:21:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CheckVINfromHomeLoggedIn - Success (react)" classname="Test Cases/CheckVINfromHomeLoggedIn - Success (react)" status="PASSED">
+         <system-out><![CDATA[2018-05-14 11:21:32 - [TEST_CASE][PASSED] - Test Cases/CheckVINfromHomeLoggedIn - Success (react): Test Cases/CheckVINfromHomeLoggedIn - Success (react)
+
+2018-05-14 11:21:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-14 11:21:33 - [TEST_CASE][PASSED] - Test Cases/Base Tests/LoginBaseTest: Test Cases/Base Tests/LoginBaseTest
+
+2018-05-14 11:21:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 11:21:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 11:21:35 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-14 11:21:36 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-14 11:21:36 - [TEST_STEP][PASSED] - Statement - faq_url = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, "faq/"]): Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:21:36 - [MESSAGE][PASSED] - Concatenated string array: '['https://staging.instavin.com/','faq/']' into 'https://staging.instavin.com/faq/'
+
+2018-05-14 11:21:36 - [TEST_STEP][PASSED] - authenticate: Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:21:40 - [MESSAGE][PASSED] - Authentication with username 'V1kinG' and password '{2}' successfully
+
+2018-05-14 11:21:40 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:21:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Label' is hovered
+
+2018-05-14 11:21:40 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:21:40 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is visible
+
+2018-05-14 11:21:40 - [TEST_STEP][PASSED] - setText: Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:21:40 - [MESSAGE][PASSED] - Text 'consumer1@mailinator.com' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Email_input'
+
+2018-05-14 11:21:40 - [TEST_STEP][PASSED] - setText: Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:21:41 - [MESSAGE][PASSED] - Text '111111' is set on object 'Object Repository/LoggedOutReactPages/FAQ/Password_input'
+
+2018-05-14 11:21:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/FAQ/SignIn_Button' is clicked on
+
+2018-05-14 11:21:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base Tests/LoginBaseTest' successfully
+
+2018-05-14 11:21:41 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-14 11:21:42 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInReactPages/MyAccount (react)/Account_Header' is visible
+
+2018-05-14 11:21:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:21:43 - [MESSAGE][PASSED] - Navigate to 'https://staging.instavin.com/' successfully
+
+2018-05-14 11:21:43 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' is present
+
+2018-05-14 11:21:43 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:43 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input' has attribute 'placeholder' with value 'ENTER VIN NUMBER'
+
+2018-05-14 11:21:43 - [TEST_STEP][PASSED] - setText: Text '5UXKR0C52F0P15679' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:21:44 - [MESSAGE][PASSED] - Text '5UXKR0C52F0P15679' is set on object 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/EnterVIN_input'
+
+2018-05-14 11:21:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/LoggedOutReactPages/HomeLoggedOut (react)/SubmitVinArrow_Button' is clicked on
+
+2018-05-14 11:21:46 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/instaVINProducts_Label' is visible
+
+2018-05-14 11:21:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:46 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/instaVINProducts_Label' is visible
+
+2018-05-14 11:21:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/MyAccount_Label' is present
+
+2018-05-14 11:21:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:46 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/MyAccount_Label' is present
+
+2018-05-14 11:21:46 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is visible
+
+2018-05-14 11:21:46 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/ChangeVIN_Cross' is visible
+
+2018-05-14 11:21:46 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is visible
+
+2018-05-14 11:21:46 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' is visible
+
+2018-05-14 11:21:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' are matched.
+
+2018-05-14 11:21:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINdisplayed' are matched.
+
+2018-05-14 11:21:46 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/RecordsAreAvailable_Message' are matched.
+
+2018-05-14 11:21:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoggedInPhpPages/OrderLoggedIn (php)/RecordsAreAvailable_Message' are matched.
+
+2018-05-14 11:21:46 - [TEST_STEP][PASSED] - verifyElementNotVisible: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is NOT visible
+
+2018-05-14 11:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/VINCheckForm_EnterVINInput' is NOT visible
+
+2018-05-14 11:21:47 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:21:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-14 11:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/LoggedOutPhpPages/OrderLoggedOut (php)/OrderNow_OrangeButton' is present
+
+2018-05-14 11:21:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-14 11:21:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-14 11:18:44 - [TEST_SUITE][PASSED] - Staging Smoke Test Suite: Test Cases/CheckVINfromHomeLoggedIn - Success (react)]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

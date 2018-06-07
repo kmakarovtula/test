@@ -1,0 +1,127 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Staging Smoke Test Suite,Chrome 66.0.3359.181,,2018-05-24 12:25:11,2018-05-24 12:32:49,7m - 38.073s,FAILED
+,,,,,,
+Test Cases/SignUpConsumer - ValidFields,Chrome 66.0.3359.181,,2018-05-24 12:25:11,2018-05-24 12:25:24,12.546s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-24 12:25:12,2018-05-24 12:25:16,3.792s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-24 12:25:16,2018-05-24 12:25:17,1.192s,PASSED
+"Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, ""create-account""])",Chrome 66.0.3359.181,,2018-05-24 12:25:17,2018-05-24 12:25:17,0.043s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-24 12:25:17,2018-05-24 12:25:20,2.819s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:25:20,2018-05-24 12:25:20,0.179s,PASSED
+verifyTextPresent,Chrome 66.0.3359.181,,2018-05-24 12:25:20,2018-05-24 12:25:20,0.322s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:25:20,2018-05-24 12:25:20,0.091s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:25:20,2018-05-24 12:25:20,0.066s,PASSED
+Statement - now = new java.util.Date(),Chrome 66.0.3359.181,,2018-05-24 12:25:20,2018-05-24 12:25:20,0.008s,PASSED
+"Statement - rnd = now.format(""yyyyMMddHHmmssSSS"").toString()",Chrome 66.0.3359.181,,2018-05-24 12:25:20,2018-05-24 12:25:20,0.005s,PASSED
+"Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([""buyer"", rnd, ""@mailinator.com""])",Chrome 66.0.3359.181,,2018-05-24 12:25:20,2018-05-24 12:25:20,0.003s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:20,2018-05-24 12:25:21,0.300s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:21,2018-05-24 12:25:21,0.188s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:21,2018-05-24 12:25:21,0.168s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:21,2018-05-24 12:25:21,0.155s,PASSED
+selectOptionByValue,Chrome 66.0.3359.181,,2018-05-24 12:25:21,2018-05-24 12:25:21,0.164s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:21,2018-05-24 12:25:22,0.861s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:22,2018-05-24 12:25:23,0.211s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:23,2018-05-24 12:25:23,0.192s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:23,2018-05-24 12:25:23,0.172s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:23,2018-05-24 12:25:23,0.146s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:23,2018-05-24 12:25:23,0.276s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:23,2018-05-24 12:25:24,0.418s,FAILED
+,,,,,,
+Test Cases/SignUpDealer - ValidFields,Chrome 66.0.3359.181,,2018-05-24 12:25:24,2018-05-24 12:25:35,11.769s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-24 12:25:24,2018-05-24 12:25:27,2.963s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-24 12:25:27,2018-05-24 12:25:28,1.160s,PASSED
+"Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, ""create-account""])",Chrome 66.0.3359.181,,2018-05-24 12:25:28,2018-05-24 12:25:28,0.005s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-24 12:25:28,2018-05-24 12:25:31,2.607s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-24 12:25:31,2018-05-24 12:25:31,0.176s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:25:31,2018-05-24 12:25:31,0.059s,PASSED
+verifyTextPresent,Chrome 66.0.3359.181,,2018-05-24 12:25:31,2018-05-24 12:25:31,0.271s,PASSED
+Statement - now = new java.util.Date(),Chrome 66.0.3359.181,,2018-05-24 12:25:31,2018-05-24 12:25:31,0.011s,PASSED
+"Statement - rnd = now.format(""yyyyMMddHHmmssSSS"").toString()",Chrome 66.0.3359.181,,2018-05-24 12:25:31,2018-05-24 12:25:32,0.001s,PASSED
+"Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([""dealer"", rnd, ""@mailinator.com""])",Chrome 66.0.3359.181,,2018-05-24 12:25:32,2018-05-24 12:25:32,0.003s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:32,2018-05-24 12:25:32,0.178s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:32,2018-05-24 12:25:32,0.328s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:32,2018-05-24 12:25:32,0.212s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:32,2018-05-24 12:25:33,0.419s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:33,2018-05-24 12:25:33,0.162s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:33,2018-05-24 12:25:33,0.197s,PASSED
+selectOptionByValue,Chrome 66.0.3359.181,,2018-05-24 12:25:33,2018-05-24 12:25:33,0.160s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:33,2018-05-24 12:25:33,0.181s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:33,2018-05-24 12:25:34,0.214s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:34,2018-05-24 12:25:34,0.911s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:34,2018-05-24 12:25:35,0.150s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:35,2018-05-24 12:25:35,0.280s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:35,2018-05-24 12:25:35,0.158s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:35,2018-05-24 12:25:35,0.434s,FAILED
+,,,,,,
+Test Cases/SignUpCADealer - ValidFields,Chrome 66.0.3359.181,,2018-05-24 12:25:35,2018-05-24 12:25:48,12.093s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-24 12:25:37,2018-05-24 12:25:40,3.104s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-24 12:25:40,2018-05-24 12:25:41,1.155s,PASSED
+"Statement - StartURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, ""create-account""])",Chrome 66.0.3359.181,,2018-05-24 12:25:41,2018-05-24 12:25:41,0.004s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-24 12:25:41,2018-05-24 12:25:43,2.489s,PASSED
+click,Chrome 66.0.3359.181,,2018-05-24 12:25:43,2018-05-24 12:25:43,0.131s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:25:43,2018-05-24 12:25:43,0.047s,PASSED
+verifyTextPresent,Chrome 66.0.3359.181,,2018-05-24 12:25:43,2018-05-24 12:25:44,0.289s,PASSED
+Statement - now = new java.util.Date(),Chrome 66.0.3359.181,,2018-05-24 12:25:44,2018-05-24 12:25:44,0.001s,PASSED
+"Statement - rnd = now.format(""yyyyMMddHHmmssSSS"").toString()",Chrome 66.0.3359.181,,2018-05-24 12:25:44,2018-05-24 12:25:44,0.001s,PASSED
+"Statement - Email = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([""cadealer"", rnd, ""@mailinator.com""])",Chrome 66.0.3359.181,,2018-05-24 12:25:44,2018-05-24 12:25:44,0.002s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:44,2018-05-24 12:25:44,0.176s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:44,2018-05-24 12:25:44,0.172s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:44,2018-05-24 12:25:44,0.225s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:44,2018-05-24 12:25:45,0.247s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:45,2018-05-24 12:25:45,0.165s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:45,2018-05-24 12:25:45,0.282s,PASSED
+selectOptionByValue,Chrome 66.0.3359.181,,2018-05-24 12:25:45,2018-05-24 12:25:45,0.146s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:45,2018-05-24 12:25:45,0.173s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:46,2018-05-24 12:25:46,0.218s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:46,2018-05-24 12:25:46,0.437s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:46,2018-05-24 12:25:47,0.359s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:47,2018-05-24 12:25:47,0.167s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:47,2018-05-24 12:25:47,0.168s,PASSED
+setText,Chrome 66.0.3359.181,,2018-05-24 12:25:47,2018-05-24 12:25:48,0.407s,FAILED
+,,,,,,
+Test Cases/Affiliate - BuyVTRConsumer,Chrome 66.0.3359.181,,2018-05-24 12:25:48,2018-05-24 12:26:59,1m - 10.926s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-24 12:25:48,2018-05-24 12:25:51,2.914s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-24 12:25:51,2018-05-24 12:25:52,1.142s,PASSED
+"Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, AffiliateURL, ""order/""])",Chrome 66.0.3359.181,,2018-05-24 12:25:52,2018-05-24 12:25:52,0.002s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-24 12:25:52,2018-05-24 12:25:55,2.340s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-24 12:25:55,2018-05-24 12:26:26,31.570s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:26:26,2018-05-24 12:26:59,32.137s,FAILED
+,,,,,,
+Test Cases/Affiliate - BuyVTRDealer,Chrome 66.0.3359.181,,2018-05-24 12:26:59,2018-05-24 12:28:08,1m - 9.831s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-24 12:26:59,2018-05-24 12:27:02,2.883s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-24 12:27:02,2018-05-24 12:27:03,1.163s,PASSED
+"Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, AffiliateURL, ""order/""])",Chrome 66.0.3359.181,,2018-05-24 12:27:03,2018-05-24 12:27:03,0.005s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-24 12:27:03,2018-05-24 12:27:05,1.658s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-24 12:27:05,2018-05-24 12:27:36,31.534s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:27:36,2018-05-24 12:28:08,32.164s,FAILED
+,,,,,,
+Test Cases/Affiliate - BuyVTRCaDealer,Chrome 66.0.3359.181,,2018-05-24 12:28:08,2018-05-24 12:29:19,1m - 10.205s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-24 12:28:09,2018-05-24 12:28:12,3.003s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-24 12:28:12,2018-05-24 12:28:13,1.161s,PASSED
+"Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, AffiliateURL, ""order/""])",Chrome 66.0.3359.181,,2018-05-24 12:28:13,2018-05-24 12:28:13,0.002s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-24 12:28:13,2018-05-24 12:28:15,1.821s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-24 12:28:15,2018-05-24 12:28:46,31.502s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:28:46,2018-05-24 12:29:19,32.267s,FAILED
+,,,,,,
+Test Cases/Salesman - BuyVtrCaDealer,Chrome 66.0.3359.181,,2018-05-24 12:29:19,2018-05-24 12:30:28,1m - 9.724s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-24 12:29:19,2018-05-24 12:29:22,2.968s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-24 12:29:22,2018-05-24 12:29:23,1.162s,PASSED
+"Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, SalesmanURL, ""order/""])",Chrome 66.0.3359.181,,2018-05-24 12:29:23,2018-05-24 12:29:23,0.002s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-24 12:29:23,2018-05-24 12:29:25,1.613s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-24 12:29:25,2018-05-24 12:29:56,31.477s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:29:56,2018-05-24 12:30:28,32.148s,FAILED
+,,,,,,
+Test Cases/Salesman - BuyVTRConsumer,Chrome 66.0.3359.181,,2018-05-24 12:30:28,2018-05-24 12:31:38,1m - 9.726s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-24 12:30:29,2018-05-24 12:30:32,2.924s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-24 12:30:32,2018-05-24 12:30:33,1.164s,PASSED
+"Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, SalesmanURL, ""order/""])",Chrome 66.0.3359.181,,2018-05-24 12:30:33,2018-05-24 12:30:33,0.002s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-24 12:30:33,2018-05-24 12:30:34,1.657s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-24 12:30:34,2018-05-24 12:31:06,31.530s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:31:06,2018-05-24 12:31:38,32.060s,FAILED
+,,,,,,
+Test Cases/Salesman - BuyVTRDealer,Chrome 66.0.3359.181,,2018-05-24 12:31:38,2018-05-24 12:32:48,1m - 10.066s,FAILED
+openBrowser,Chrome 66.0.3359.181,,2018-05-24 12:31:38,2018-05-24 12:31:41,2.964s,PASSED
+maximizeWindow,Chrome 66.0.3359.181,,2018-05-24 12:31:41,2018-05-24 12:31:42,1.151s,PASSED
+"Statement - OrderURL = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.concatenate([StagingReact, SalesmanURL, ""order/""])",Chrome 66.0.3359.181,,2018-05-24 12:31:42,2018-05-24 12:31:42,0.002s,PASSED
+navigateToUrl,Chrome 66.0.3359.181,,2018-05-24 12:31:42,2018-05-24 12:31:44,1.993s,PASSED
+waitForElementVisible,Chrome 66.0.3359.181,,2018-05-24 12:31:44,2018-05-24 12:32:16,31.425s,PASSED
+verifyElementText,Chrome 66.0.3359.181,,2018-05-24 12:32:16,2018-05-24 12:32:48,32.165s,FAILED

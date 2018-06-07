@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CheckVINfromHomeLoggedIn - EmptyVIN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3ff1d605-9817-4bb6-8e4c-7cd01894ae30</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef7434d6-791b-442f-b52c-4c37e39ff222</id>
+      <masked>false</masked>
+      <name>VIN</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.ConsumerEmail1</defaultValue>
+      <description></description>
+      <id>1076a21a-76f9-4465-82ec-4dcebf0432d1</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.Pass1</defaultValue>
+      <description></description>
+      <id>c027c201-f446-4e82-8c2d-1af3a0040127</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+</TestCaseEntity>
